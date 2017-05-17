@@ -1,0 +1,64 @@
+ID	PID	STATEMENT	TYPE	ALLERGEN	SYSTEM	CODE	START_DATE	END_DATE	REACTION	SNOMED	SEVERITY
+1	613876	negative	general	No known allergies	SNOMED	160244002	2000				
+2	621799	positive	drugClass	sulfonamide antibacterial	NDFRT	N0000175503	2000		skin rash	271807003	mild
+3	621799	positive	food	peanut	UNII	QE1QX6B99R	2000		Anaphylaxis	39579001	severe
+4	629528	negative	general	No known allergies	SNOMED	160244002	2000				
+5	640264	negative	general	No known allergies	SNOMED	160244002	2000				
+6	644201	negative	general	No known allergies	SNOMED	160244002	2000				
+7	665677	negative	general	No known allergies	SNOMED	160244002	2000				
+8	724111	negative	general	No known allergies	SNOMED	160244002	2000				
+9	731673	negative	general	No known allergies	SNOMED	160244002	2000				
+10	736230	negative	general	No known allergies	SNOMED	160244002	2000				
+11	765583	negative	general	No known allergies	SNOMED	160244002	2000				
+12	767980	negative	general	No known allergies	SNOMED	160244002	2000				
+13	880378	negative	general	No known allergies	SNOMED	160244002	2000				
+14	897185	positive	drugClass	sulfonamide antibacterial	NDFRT	N0000175503	2000		skin rash	271807003	mild
+15	897185	positive	food	peanut	UNII	QE1QX6B99R	2000		Anaphylaxis	39579001	severe
+16	935270	negative	general	No known allergies	SNOMED	160244002	2000				
+17	967332	negative	general	No known allergies	SNOMED	160244002	2000				
+18	981968	negative	general	No known allergies	SNOMED	160244002	2000				
+19	1032702	negative	general	No known allergies	SNOMED	160244002	2000				
+20	1081332	negative	general	No known allergies	SNOMED	160244002	2000				
+21	1098667	negative	general	No known allergies	SNOMED	160244002	2000				
+22	1134281	negative	general	No known allergies	SNOMED	160244002	2000				
+23	1137192	positive	drugClass	sulfonamide antibacterial	NDFRT	N0000175503	2000		skin rash	271807003	mild
+24	1157764	negative	general	No known allergies	SNOMED	160244002	2000				
+25	1186747	negative	general	No known allergies	SNOMED	160244002	2000				
+26	1213208	negative	general	No known allergies	SNOMED	160244002	2000				
+27	1272431	negative	general	No known allergies	SNOMED	160244002	2000				
+28	1288992	positive	drugClass	sulfonamide antibacterial	NDFRT	N0000175503	2000		skin rash	271807003	mild
+29	1291938	negative	general	No known allergies	SNOMED	160244002	2000				
+30	1482713	negative	general	No known allergies	SNOMED	160244002	2000				
+31	1520204	negative	general	No known allergies	SNOMED	160244002	2000				
+32	1540505	negative	general	No known allergies	SNOMED	160244002	2000				
+33	1551992	positive	drugClass	sulfonamide antibacterial	NDFRT	N0000175503	2000		skin rash	271807003	mild
+34	1557780	negative	general	No known allergies	SNOMED	160244002	2000				
+35	1577780	negative	general	No known allergies	SNOMED	160244002	2000				
+36	1614502	negative	general	No known allergies	SNOMED	160244002	2000				
+37	1627321	negative	general	No known allergies	SNOMED	160244002	2000				
+38	1642068	negative	general	No known allergies	SNOMED	160244002	2000				
+39	1685497	positive	drugClass	sulfonamide antibacterial	NDFRT	N0000175503	2000		skin rash	271807003	mild
+40	1685497	positive	food	peanut	UNII	QE1QX6B99R	2000		Anaphylaxis	39579001	severe
+41	1768562	negative	general	No known allergies	SNOMED	160244002	2000				
+42	1796238	negative	general	No known allergies	SNOMED	160244002	2000				
+43	1869612	negative	general	No known allergies	SNOMED	160244002	2000				
+44	1951076	negative	general	No known allergies	SNOMED	160244002	2000				
+45	2004454	negative	general	No known allergies	SNOMED	160244002	2000				
+46	2042917	negative	general	No known allergies	SNOMED	160244002	2000				
+47	2080416	negative	general	No known allergies	SNOMED	160244002	2000				
+48	2081539	negative	general	No known allergies	SNOMED	160244002	2000				
+49	2113340	negative	general	No known allergies	SNOMED	160244002	2000				
+50	2169591	positive	drugClass	sulfonamide antibacterial	NDFRT	N0000175503	2000		skin rash	271807003	mild
+51	2169591	positive	food	peanut	UNII	QE1QX6B99R	2000		Anaphylaxis	39579001	severe
+52	2347217	negative	general	No known allergies	SNOMED	160244002	2000				
+53	2354220	negative	general	No known allergies	SNOMED	160244002	2000				
+54	2502813	negative	general	No known allergies	SNOMED	160244002	2000				
+55	8888801	positive	drug	Erythromycin	RXNORM	4053	2013		Pruritic rash 	64144002	severe
+56	8888802	positive	drug	lisinopril 20mg	RXNORM	316153	2013		Cough	49727002	severe
+57	8888802	positive	environmental	dust	UNII	EYO007VX98	2013		Allergic asthma	389145006	severe
+58	8888802	positive	environmental	tree pollens	UNII	JQ5HI5004M	2013		Allergic asthma	389145006	severe
+59	8888802	positive	food	shrimp	UNII	1891LE191T	2013		Anaphylaxis	39579001	severe
+60	8888803	positive	environmental	Latex	UNII	2LQ0UUW8IN	2013		Allergic contact dermatitis	238575004	severe
+61	8888803	positive	drug	Ciprofloxacin	RXNORM	203563	2013		Vomiting	422400008	severe
+62	8888804	negative	general	No known history of drug allergy	SNOMED	409137002	2010				
+63	99912345	negative	general	No known allergies	SNOMED	160244002	2008-05-05				

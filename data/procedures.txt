@@ -1,0 +1,24 @@
+ID	PID	DATE	SNOMED	NAME	NOTES
+1	1291938	2002-05-23	35637008	Alcohol rehabilitation	
+2	1291938	2000-02-12	384742004	Smoking cessation assistance	
+3	2502813	2002-08-21	384742004	Smoking cessation assistance	
+4	2502813	2002-02-11	426945003	X-ray of bone	
+5	1642068	2010-12-19	359728003	Radical mastectomy including pectoral muscles and axillary lymph nodes	
+6	1642068	1980-02-12	169961004	Normal birth	
+7	665677	2008-02-17	302497006	Hemodialysis	
+8	665677	2007-11-21	390735007	Retinal screening	
+9	665677	2007-11-21	410455004	Slit lamp fundus examination	
+10	665677	2007-10-08	401191002	Diabetic foot examination	
+11	981968	2005-10-11	401011001	Peak expiratory flow rate monitoring using diary	
+12	1768562	2007-11-30	10326007	"Coronary artery bypass with autogenous graft, three grafts"	
+13	8888801	2009-07-24	284384005	Examination of foot	normal
+14	8888801	2010-08-16	284384005	Examination of foot	normal
+15	8888801	2011-05-10	284384005	Examination of foot	normal
+16	8888801	2011-09-20	284384005	Examination of foot	normal
+17	8888801	2012-04-20	284384005	Examination of foot	normal
+18	8888801	2012-08-15	284384005	Examination of foot	normal
+19	8888801	2009-07-24	36228007	Ophthalmic examination and evaluation	normal per ophth
+20	8888801	2011-10-01	36228007	Ophthalmic examination and evaluation	normal per ophth.
+21	8888802	2011-10-26	36228007	Ophthalmic examination and evaluation	normal
+22	8888802	2012-11-06	36228007	Ophthalmic examination and evaluation	normal
+23	99912345	2011-02-15	80146002	Appendectomy	

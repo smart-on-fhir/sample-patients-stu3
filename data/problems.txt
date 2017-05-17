@@ -1,0 +1,562 @@
+ID	PID	START_DATE	END_DATE	SNOMED	NAME
+1	1291938	2007-05-23		254837009	Primary malignant neoplasm of female breast
+2	1291938	2007-06-05		89164003	Breast lump
+3	1291938	2007-06-19		189336000	Carcinoma in situ of breast
+4	1291938	2007-07-17		185903001	Needs influenza immunization
+5	1291938	2007-12-20		76498008	Asymptomatic postmenopausal status (age-related) (natural)
+6	1291938	2007-12-20		16041008	Ovarian failure
+7	1291938	2008-02-07		193589009	Senile nuclear sclerosis
+8	1291938	2008-02-28		126926005	Neoplasm of breast
+9	1291938	2008-02-28		213299007	Postprocedural state finding
+10	1291938	2008-04-18		309523001	H/O: artificial eye lens
+11	1291938	2008-11-19		267024001	Abnormal weight loss
+12	1291938	2009-06-17		38341003	Essential hypertension
+13	1291938	2009-06-17		55822004	Hyperlipidemia
+14	1288992	2005-05-22		48167000	Amnesia
+15	1288992	2007-07-11		1201005	Benign essential hypertension
+16	1288992	2007-07-11		396275006	Osteoarthritis
+17	1288992	2007-09-15		52448006	Other persistent mental disorders due to conditions classified elsewhere
+18	1288992	2007-11-17		429998004	"Vascular dementia, uncomplicated"
+19	1288992	2008-04-20		38341003	Essential hypertension
+20	1288992	2008-07-10		427359005	Disorder of lung
+21	1288992	2008-08-08		26929004	Alzheimer's disease
+22	1288992	2008-08-08		191519005	Dementia associated with another disease
+23	1288992	2008-08-08		185903001	Needs influenza immunization
+24	2502813	2003-12-05		54150009	Acute upper respiratory infection
+25	2502813	2003-12-05		13645005	Chronic obstructive lung disease
+26	2502813	2003-12-05		38341003	Essential hypertension
+27	2502813	2003-12-05		89765005	Tobacco dependence syndrome
+28	2502813	2004-06-01		247373008	Arthralgia of the ankle and/or foot
+29	2502813	2004-06-06		312824007	Family history of malignant neoplasm of gastrointestinal tract
+30	2502813	2004-06-06		429047008	History of polyp of colon
+31	2502813	2006-02-02		60241006	Female stress incontinence
+32	2502813	2006-06-13		125649002	Open wound of forearm without complication
+33	1642068	2004-12-19		78809005	Benign neoplasm of stomach
+34	1642068	2004-12-19		38341003	Essential hypertension
+35	1642068	2004-12-19		235651006	Gastritis
+36	1642068	2004-12-19		40930008	Hypothyroidism
+37	1642068	2004-12-19		236104004	Other specified disorders of stomach and duodenum
+38	1642068	2004-12-19		84027009	Pernicious anemia
+39	1642068	2005-02-20		168750009	"Abnormal mammogram, unspecified"
+40	1642068	2005-02-20		396275006	Osteoarthritis
+41	1642068	2005-12-20		10601006	Pain in limb
+42	1642068	2006-01-07		443092002	Exostosis of unspecified site
+43	1642068	2006-01-07		161591004	H/O: penicillin allergy
+44	1272431	2003-08-23		399068003	Primary malignant neoplasm of prostate
+45	1272431	2004-05-29		34014006	Viral disease
+46	1272431	2005-12-17		54150009	Acute upper respiratory infection
+47	1272431	2005-12-17		55822004	Hyperlipidemia
+48	1272431	2006-05-27		12063002	Hemorrhage of rectum and anus
+49	1272431	2006-05-27		60700002	Sensorineural hearing loss
+50	1272431	2006-07-09		68496003	Benign neoplasm of colon
+51	1272431	2006-07-09		398050005	Diverticular disease of colon
+52	1272431	2006-07-09		90458007	Internal hemorrhoids without mention of complication
+53	1272431	2006-11-07		363518003	Primary malignant neoplasm of kidney
+54	1272431	2008-09-07		279039007	Low back pain
+55	1272431	2008-09-07		45326000	Shoulder joint pain
+56	1272431	2009-08-09		84229001	Malaise and fatigue
+57	2080416	2004-03-23		422400008	Vomiting
+58	2080416	2004-03-26		78164000	Feeding difficulties and mismanagement
+59	2080416	2004-04-01		72552008	Feeding problems in newborn
+60	2080416	2004-05-10		49727002	Cough
+61	2080416	2004-05-10		274667000	Finding of head and neck region
+62	2080416	2004-09-02		1023001	Apnea
+63	2080416	2004-11-06		35183001	Acute secretory otitis media
+64	2080416	2005-03-06		386661006	Fever and other physiologic disturbances of temperature regulation
+65	2080416	2005-03-06		65363002	Otitis media
+66	1614502	2007-10-28		237084006	Cervicitis and endocervicitis
+67	1614502	2007-10-28		91487003	Diaper rash
+68	1614502	2007-10-28		65363002	Otitis media
+69	1614502	2007-12-01		425229001	Foreign body in larynx
+70	1614502	2007-12-01		422400008	Vomiting
+71	1614502	2008-02-14		54150009	Acute upper respiratory infection
+72	1614502	2008-02-14		81302005	General well-being finding
+73	1614502	2008-12-12		25374005	Other and unspecified noninfectious gastroenteritis and colitis
+74	1951076	2004-12-20		37796009	Migraine
+75	1951076	2004-12-27		25374005	Other and unspecified noninfectious gastroenteritis and colitis
+76	1951076	2005-02-01		16932000	Nausea and vomiting
+77	1951076	2007-01-24		210682000	"Open wound of knee, leg [except thigh], and ankle, without mention of complication"
+78	1951076	2008-03-25		28651003	Orthostatic hypotension
+79	1951076	2008-11-15		79890006	Anorexia
+80	1951076	2008-11-15		24199005	Clinical finding
+81	1951076	2008-11-15		35489007	Depressive disorder
+82	1951076	2008-11-15		91175000	Seizure
+83	1951076	2008-11-24		85005007	Cannabis dependence
+84	1557780	2005-06-01		193590000	Mature cataract
+85	1557780	2005-06-01		87433001	Pulmonary emphysema
+86	1557780	2005-06-01		89765005	Tobacco dependence syndrome
+87	1557780	2005-06-15		13645005	Chronic obstructive lung disease
+88	1557780	2009-03-16		267036007	Other dyspnea and respiratory abnormality
+89	1557780	2009-06-01		185086009	Emphysematous bronchitis
+90	1557780	2009-09-04		10509002	Acute bronchitis
+91	1557780	2009-09-04		195949008	Chronic asthmatic bronchitis
+92	1557780	2009-09-04		38341003	Essential hypertension
+93	1557780	2009-09-04		235595009	Gastroesophageal reflux disease
+94	1627321	2007-08-31		44054006	Diabetes mellitus type 2
+95	1627321	2008-09-08		190828008	Articular gout
+96	1627321	2008-09-08		202708005	Displacement of lumbar intervertebral disc without myelopathy
+97	1627321	2008-09-08		38341003	Essential hypertension
+98	1627321	2008-09-08		275134007	FH: Arthritis
+99	1627321	2008-09-08		160303001	FH: Diabetes mellitus
+100	1627321	2008-09-08		279039007	Low back pain
+101	1627321	2008-09-08		238136002	Morbid obesity
+102	1627321	2008-09-08		16932000	Nausea and vomiting
+103	1627321	2008-11-18		10601006	Pain in limb
+104	731673	2004-10-28		36971009	Acute sinusitis
+105	731673	2004-10-28		61582004	Allergic rhinitis
+106	731673	2004-10-28		404640003	Dizziness and giddiness
+107	731673	2004-10-29		68235000	Other diseases of nasal cavity and sinuses
+108	731673	2005-02-16		3723001	Arthropathy
+109	731673	2005-02-16		68962001	"Myalgia and myositis, unspecified"
+110	731673	2005-03-27		48694002	Anxiety
+111	731673	2005-03-27		1201005	Benign essential hypertension
+112	731673	2005-05-12		35489007	Depressive disorder
+113	731673	2005-05-12		68566005	Urinary tract infectious disease
+114	731673	2005-06-18		25064002	Headache
+115	731673	2005-06-19		38341003	Essential hypertension
+116	731673	2005-06-19		55822004	Hyperlipidemia
+117	731673	2005-07-07		50438001	Peripheral vertigo
+118	731673	2005-07-07		60700002	Sensorineural hearing loss
+119	1032702	2007-12-14		442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"
+120	1032702	2007-12-19		267024001	Abnormal weight loss
+121	1032702	2007-12-19		310249008	Follow-up encounter
+122	1032702	2008-04-03		235595009	Gastroesophageal reflux disease
+123	1032702	2008-06-29		185903001	Needs influenza immunization
+124	665677	2004-04-15		1201005	Benign essential hypertension
+125	665677	2004-08-19		84229001	Malaise and fatigue
+126	665677	2006-01-06		161891005	Backache
+127	665677	2006-01-06		53298000	Hematuria syndrome
+128	665677	2006-01-14		197321007	Chronic nonalcoholic liver disease
+129	665677	2006-01-14		90708001	Unspecified disorder of kidney and ureter
+130	665677	2006-02-17		427359005	Disorder of lung
+131	665677	2006-02-17		415081006	History of malignant neoplasm of kidney
+132	665677	2006-02-17		363518003	Primary malignant neoplasm of kidney
+133	665677	2006-03-15		44054006	Diabetes mellitus type 2
+134	665677	2006-03-15		38341003	Essential hypertension
+135	665677	2006-03-15		395704004	Heart disease
+136	665677	2006-03-15		429484003	History of malignant neoplasm of cervix
+137	665677	2008-10-02		193462001	Insomnia
+138	665677	2008-10-02		197275004	Subacute hepatic failure
+139	665677	2008-11-13		78667006	Dysthymia
+140	2347217	2003-10-15		1201005	Benign essential hypertension
+141	2347217	2003-10-15		55822004	Hyperlipidemia
+142	2347217	2003-12-14		29857009	Chest pain
+143	2347217	2003-12-14		102589003	Chest pain
+144	2347217	2003-12-14		38341003	Essential hypertension
+145	2347217	2004-06-06		162116003	Finding of frequency of urination
+146	2347217	2004-06-20		398050005	Diverticular disease of colon
+147	1796238	2006-07-17		409622000	Acute respiratory failure
+148	1796238	2006-07-17		195949008	Chronic asthmatic bronchitis
+149	1796238	2006-07-17		34095006	Dehydration
+150	1796238	2006-07-17		44054006	Diabetes mellitus type 2
+151	1796238	2006-07-17		38341003	Essential hypertension
+152	1796238	2006-07-17		55525008	Paralytic ileus
+153	1213208	2009-02-17		81680005	Neck pain
+154	1213208	2009-02-17		90392009	Spasm
+155	1213208	2009-05-11		108365000	Unspecified local infection of skin and subcutaneous tissue
+156	1213208	2009-05-13		1201005	Benign essential hypertension
+157	1213208	2009-05-13		267782008	Cellulitis and abscess of leg
+158	1213208	2009-05-13		57643001	Gastro-esophageal reflux disease with esophagitis
+159	1213208	2009-05-15		30473006	Abdominal pain
+160	1213208	2009-05-15		202381003	Joint effusion of the lower leg
+161	1213208	2009-05-15		19471005	Lymphadenitis
+162	1213208	2009-06-25		200645004	Cellulitis and abscess of face
+163	1768562	2003-11-30		49436004	Atrial fibrillation
+164	1768562	2003-11-30		29857009	Chest pain
+165	1768562	2003-11-30		88223008	Chronic pulmonary heart disease
+166	1768562	2003-11-30		82523003	Congestive rheumatic heart failure
+167	1768562	2003-11-30		233817007	Coronary arteriosclerosis
+168	1768562	2003-11-30		83521008	Dilated cardiomyopathy secondary to alcohol
+169	1768562	2003-11-30		297242006	FH: Cardiac disorder
+170	1768562	2003-11-30		64715009	"Hypertensive heart disease, unspecified, without heart failure"
+171	1768562	2003-11-30		36083008	Sinus node dysfunction
+172	1768562	2003-11-30		89765005	Tobacco dependence syndrome
+173	1768562	2004-01-03		85898001	Cardiomyopathy
+174	1768562	2004-01-03		35489007	Depressive disorder
+175	1768562	2004-01-03		8517006	History of tobacco use
+176	1768562	2004-01-03		55822004	Hyperlipidemia
+177	1768562	2004-09-15		13645005	Chronic obstructive lung disease
+178	2113340	2006-02-14		84229001	Malaise and fatigue
+179	2113340	2006-08-15		34840004	Enthesopathy
+180	2113340	2007-05-13		44054006	Diabetes mellitus type 2
+181	2113340	2007-08-25		55822004	Hyperlipidemia
+182	2113340	2009-03-08		22298006	Acute myocardial infarction
+183	2113340	2009-03-08		71884009	Precordial pain
+184	2081539	2006-01-16		49436004	Atrial fibrillation
+185	2081539	2006-01-16		68496003	Benign neoplasm of colon
+186	2081539	2006-01-16		398050005	Diverticular disease of colon
+187	2081539	2006-01-16		38341003	Essential hypertension
+188	2081539	2006-01-16		429047008	History of polyp of colon
+189	2081539	2006-01-16		396275006	Osteoarthritis
+190	2081539	2009-01-07		39772007	Anal and rectal polyp
+191	2081539	2009-01-07		44054006	Diabetes mellitus type 2
+192	2081539	2009-01-07		23913003	External hemorrhoids without complication
+193	2081539	2009-01-07		8517006	History of tobacco use
+194	1520204	2007-07-08		267952008	Arthralgia of the pelvic region and thigh
+195	1520204	2007-07-08		13645005	Chronic obstructive lung disease
+196	1520204	2007-07-08		38341003	Essential hypertension
+197	1520204	2007-07-08		239872002	"Osteoarthrosis, unspecified whether generalized or localized, involving pelvic region and thigh"
+198	1520204	2007-07-08		89765005	Tobacco dependence syndrome
+199	1520204	2008-01-14		55822004	Hyperlipidemia
+200	1520204	2008-01-14		396275006	Osteoarthritis
+201	1520204	2008-04-24		53726008	Acute conjunctivitis
+202	1520204	2008-04-24		421961002	Allergy
+203	1520204	2008-09-02		161891005	Backache
+204	1520204	2008-09-02		32398004	Bronchitis
+205	1520204	2008-09-02		29857009	Chest pain
+206	1520204	2008-09-02		49727002	Cough
+207	1520204	2009-01-26		30989003	Arthralgia of the lower leg
+208	1520204	2009-01-26		1201005	Benign essential hypertension
+209	1520204	2009-01-26		267432004	Pure hypercholesterolemia
+210	1520204	2009-04-22		285381006	Acute exacerbation of chronic obstructive airways disease
+211	1520204	2009-04-22		3723001	Arthropathy
+212	2169591	2003-11-24		88616000	Acne
+213	2169591	2004-05-17		40930008	Hypothyroidism
+214	2169591	2004-05-17		34486009	Thyrotoxicosis without goiter OR other cause
+215	2169591	2004-06-06		312399001	Abnormal results of thyroid function studies
+216	2169591	2004-06-28		271939006	Leukorrhea
+217	2169591	2004-06-28		441087007	Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US)
+218	2169591	2004-12-04		1475003	Herpes simplex without complication
+219	2169591	2008-08-18		55822004	Hyperlipidemia
+220	2169591	2009-09-23		421961002	Allergy
+221	2169591	2009-09-23		299703001	"Swelling, mass, or lump in head and neck"
+222	1134281	2005-07-04		73749009	Neonatal jaundice associated with preterm delivery
+223	1134281	2005-07-04		95617006	Perinatal cyanotic attacks
+224	1134281	2005-07-04		46775006	Respiratory distress syndrome in the newborn
+225	1134281	2005-07-04		206200000	Scalp injury
+226	1134281	2005-07-04		442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"
+227	1134281	2005-07-08		387712008	Neonatal jaundice
+228	1134281	2005-07-10		18165001	Jaundice
+229	1134281	2005-11-28		54150009	Acute upper respiratory infection
+230	1134281	2006-02-09		235595009	Gastroesophageal reflux disease
+231	1134281	2006-08-31		65363002	Otitis media
+232	1134281	2006-12-14		25374005	Other and unspecified noninfectious gastroenteritis and colitis
+233	1134281	2009-06-17		36971009	Acute sinusitis
+234	935270	2006-09-13		102594003	Abnormal ECG
+235	935270	2006-09-13		272036004	Asthenia
+236	935270	2006-12-06		29857009	Chest pain
+237	935270	2006-12-06		49727002	Cough
+238	935270	2006-12-06		38341003	Essential hypertension
+239	935270	2007-11-20		233817007	Coronary arteriosclerosis
+240	935270	2008-02-06		413838009	Chronic ischemic heart disease
+241	935270	2008-02-06		55822004	Hyperlipidemia
+242	935270	2008-09-13		200665006	Cellulitis and abscess of upper arm and forearm
+243	935270	2008-09-13		39812007	Contusion of forearm
+244	935270	2008-09-13		302227002	Disorder of cardiovascular system
+245	935270	2008-09-13		125598003	"Other and unspecified injury to elbow, forearm, and wrist"
+246	935270	2008-09-13		10601006	Pain in limb
+247	767980	2004-08-12		29857009	Chest pain
+248	767980	2004-08-12		38341003	Essential hypertension
+249	767980	2004-08-12		266998003	H/O: peptic ulcer
+250	767980	2004-08-12		102588006	Painful respiration
+251	767980	2004-08-12		267432004	Pure hypercholesterolemia
+252	767980	2004-08-12		89765005	Tobacco dependence syndrome
+253	767980	2004-10-18		32398004	Bronchitis
+254	767980	2004-10-22		80394007	Blood chemistry abnormal
+255	767980	2004-12-10		54150009	Acute upper respiratory infection
+256	767980	2004-12-10		44054006	Diabetes mellitus type 2
+257	767980	2005-09-08		185903001	Needs influenza immunization
+258	767980	2005-12-16		249288007	Incomplete emptying of bladder
+259	981968	2005-05-17		279039007	Low back pain
+260	981968	2005-06-25		209565008	Lumbar sprain
+261	981968	2005-10-11		195967001	Asthma
+262	981968	2005-10-11		267432004	Pure hypercholesterolemia
+263	981968	2005-10-17		55260003	Calcaneal spur
+264	981968	2005-10-17		202855006	Lateral epicondylitis
+265	981968	2005-10-17		10601006	Pain in limb
+266	981968	2008-06-21		90560007	Gout
+267	981968	2008-06-21		13600006	Hair and hair follicle diseases
+268	981968	2008-06-21		84229001	Malaise and fatigue
+269	981968	2008-07-10		404640003	Dizziness and giddiness
+270	981968	2008-07-21		51868009	"Duodenal ulcer without hemorrhage, without perforation AND without obstruction"
+271	981968	2008-07-21		235595009	Gastroesophageal reflux disease
+272	1098667	2004-12-01		68272006	Acute maxillary sinusitis
+273	1098667	2005-02-24		36971009	Acute sinusitis
+274	1098667	2005-02-24		25064002	Headache
+275	1098667	2005-03-17		56097005	Migraine without aura
+276	1098667	2005-04-09		55822004	Hyperlipidemia
+277	1098667	2005-04-22		80394007	Blood chemistry abnormal
+278	1098667	2005-04-28		400210000	Hemangioma
+279	1098667	2005-04-28		267432004	Pure hypercholesterolemia
+280	1098667	2005-08-26		312824007	Family history of malignant neoplasm of gastrointestinal tract
+281	1098667	2005-08-26		429047008	History of polyp of colon
+282	1098667	2005-10-15		92359006	Benign neoplasm of skin of face
+283	1098667	2005-10-15		92380000	Benign neoplasm of skin of trunk
+284	2354220	2007-07-23		271737000	Anemia
+285	2354220	2007-07-23		266599000	Dysmenorrhea
+286	2354220	2007-07-23		76376003	Endometriosis of uterus
+287	2354220	2007-07-23		386692008	Excessive and frequent menstruation
+288	2354220	2007-07-23		93616000	Intramural leiomyoma of uterus
+289	2354220	2007-07-23		95280005	Subserous leiomyoma of uterus
+290	2354220	2007-07-23		89765005	Tobacco dependence syndrome
+291	2354220	2007-07-23		252030006	Urinary symptoms
+292	2354220	2008-11-23		29857009	Chest pain
+293	2354220	2008-11-23		13645005	Chronic obstructive lung disease
+294	2354220	2008-11-23		55822004	Hyperlipidemia
+295	2004454	2008-07-09		442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"
+296	2004454	2008-07-14		267024001	Abnormal weight loss
+297	2004454	2008-08-01		91487003	Diaper rash
+298	2004454	2009-03-02		54150009	Acute upper respiratory infection
+299	2004454	2009-03-02		65363002	Otitis media
+300	2004454	2009-08-07		16932000	Nausea and vomiting
+301	2004454	2009-08-07		34014006	Viral disease
+302	1186747	2004-12-31		242489002	Accidental burning caused by caustic and corrosive substance
+303	1186747	2004-12-31		67678004	Acute atopic conjunctivitis
+304	1186747	2006-01-18		406506008	Attention deficit hyperactivity disorder
+305	1186747	2006-09-25		54150009	Acute upper respiratory infection
+306	1186747	2006-09-25		16001004	Otalgia
+307	1186747	2006-10-16		14760008	Constipation
+308	1186747	2006-11-23		195967001	Asthma
+309	1186747	2006-11-23		49727002	Cough
+310	1186747	2006-11-23		66857006	Hemoptysis
+311	1186747	2007-12-19		568005	Tic disorder
+312	1186747	2008-02-10		26079004	Abnormal involuntary movement
+313	1482713	2003-12-11		271807003	Eruption
+314	1482713	2004-01-31		54150009	Acute upper respiratory infection
+315	1482713	2004-01-31		65363002	Otitis media
+316	1482713	2005-06-25		429305003	"Insect bite, nonvenomous, of other, multiple, and unspecified sites, without mention of infection"
+317	1482713	2005-06-25		68235000	Other diseases of nasal cavity and sinuses
+318	1482713	2005-09-25		43116000	"Contact dermatitis and other eczema, unspecified cause"
+319	1482713	2006-09-03		170539009	Poliomyelitis vaccination
+320	1482713	2008-12-31		277843001	Disruptive behavior disorder
+321	1482713	2009-02-04		23560001	"Other specified pervasive developmental disorders, current or active state"
+322	1482713	2009-04-01		20301004	Disturbance in speech
+323	621799	2003-12-14		233817007	Coronary arteriosclerosis
+324	621799	2003-12-14		267431006	Disorder of lipid metabolism
+325	621799	2003-12-14		25569003	Paroxysmal ventricular tachycardia
+326	621799	2003-12-14		89765005	Tobacco dependence syndrome
+327	621799	2008-08-16		194828000	Angina
+328	621799	2008-08-16		42343007	Congestive heart failure
+329	621799	2008-08-30		85898001	Cardiomyopathy
+330	621799	2008-08-30		414795007	Chronic ischemic heart disease
+331	621799	2008-08-30		404640003	Dizziness and giddiness
+332	621799	2008-08-30		297242006	FH: Cardiac disorder
+333	621799	2008-08-30		55822004	Hyperlipidemia
+334	621799	2008-08-30		1755008	Old myocardial infarction
+335	621799	2008-11-21		267432004	Pure hypercholesterolemia
+336	629528	2007-02-06		35489007	Depressive disorder
+337	629528	2007-11-20		285836003	Cervical intraepithelial neoplasia grade 1
+338	629528	2007-11-20		237084006	Cervicitis and endocervicitis
+339	629528	2007-11-20		240532009	Human papilloma virus infection
+340	629528	2007-11-20		441087007	Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US)
+341	1577780	2005-08-02		54302000	Disorder of breast
+342	1577780	2005-08-22		38341003	Essential hypertension
+343	1577780	2005-08-22		254837009	Primary malignant neoplasm of female breast
+344	1577780	2005-09-22		195967001	Asthma
+345	1577780	2005-10-27		40930008	Hypothyroidism
+346	1577780	2006-02-20		8517006	History of tobacco use
+347	1577780	2006-02-20		188155002	Primary malignant neoplasm of lower outer quadrant of female breast
+348	1577780	2007-01-07		44054006	Diabetes mellitus type 2
+349	1577780	2007-02-21		353295004	Toxic diffuse goiter
+350	1577780	2008-04-08		55822004	Hyperlipidemia
+351	1685497	2003-11-10		29857009	Chest pain
+352	1685497	2003-11-10		102589003	Chest pain
+353	1685497	2003-11-10		79922009	Epigastric pain
+354	1685497	2003-11-10		297242006	FH: Cardiac disorder
+355	1685497	2003-11-10		386661006	Fever and other physiologic disturbances of temperature regulation
+356	1685497	2003-11-10		57643001	Gastro-esophageal reflux disease with esophagitis
+357	1685497	2003-11-10		422587007	Nausea
+358	1685497	2003-11-10		111583006	White blood cell disorder
+359	1685497	2003-11-18		38341003	Essential hypertension
+360	1685497	2003-11-18		237602007	Metabolic syndrome X
+361	1685497	2003-11-18		238136002	Morbid obesity
+362	1685497	2003-12-20		1201005	Benign essential hypertension
+363	1685497	2003-12-20		267432004	Pure hypercholesterolemia
+364	1685497	2005-01-18		44054006	Diabetes mellitus type 2
+365	1685497	2005-01-18		55822004	Hyperlipidemia
+366	1685497	2005-08-20		279039007	Low back pain
+367	736230	2004-05-24		40930008	Hypothyroidism
+368	736230	2004-06-13		248802009	Disorder of breast
+369	736230	2006-04-17		267038008	Edema
+370	736230	2006-05-09		289903006	Menopausal syndrome
+371	736230	2008-07-05		76498008	Asymptomatic postmenopausal status (age-related) (natural)
+372	897185	2004-09-20		165084003	Clinical finding
+373	897185	2004-09-20		55822004	Hyperlipidemia
+374	897185	2007-01-22		399963005	"Abrasion or friction burn of other, multiple, and unspecified sites, without mention of infection"
+375	897185	2007-01-22		82271004	Injury of head
+376	897185	2007-01-28		34649000	Closed fracture of malar AND/OR maxillary bones
+377	897185	2007-06-02		21186006	Chronic non-suppurative otitis media
+378	897185	2007-09-26		10509002	Acute bronchitis
+379	1157764	2003-12-16		254837009	Primary malignant neoplasm of female breast
+380	1157764	2005-09-14		17226007	Adjustment disorder
+381	1157764	2005-11-14		7620006	Crohn's disease of large bowel
+382	1157764	2005-11-15		18818009	"Recurrent major depressive episodes, moderate"
+383	1157764	2006-09-26		36971009	Acute sinusitis
+384	1157764	2006-10-30		53298000	Hematuria syndrome
+385	1157764	2008-10-21		372064008	Primary malignant neoplasm of central portion of female breast
+386	1157764	2009-05-20		77075001	Primary open angle glaucoma
+387	1157764	2009-07-01		50485007	Low tension glaucoma
+388	2042917	2006-04-11		193570009	Asthma
+389	2042917	2006-04-11		44465007	Sprain of ankle
+390	2042917	2006-04-11		422400008	Vomiting
+391	2042917	2006-04-11		56018004	Wheezing
+392	2042917	2006-07-05		267024001	Abnormal weight loss
+393	2042917	2006-07-05		195967001	Asthma
+394	2042917	2006-07-05		405729008	Blood in stool
+395	2042917	2006-07-05		78267003	Cocaine abuse
+396	2042917	2006-07-05		44808001	Conduction disorder of the heart
+397	2042917	2006-07-05		38341003	Essential hypertension
+398	2042917	2006-07-05		281239006	Exacerbation of asthma
+399	2042917	2006-07-05		89765005	Tobacco dependence syndrome
+400	1551992	2004-08-19		29857009	Chest pain
+401	1551992	2008-02-22		1201005	Benign essential hypertension
+402	1551992	2008-02-22		11934000	Hypertensive disorder
+403	1551992	2008-05-14		65074000	Chronic obstructive lung disease
+404	1551992	2008-05-14		90560007	Gout
+405	1551992	2008-06-05		310249008	Follow-up encounter
+406	1551992	2008-06-20		414941008	Onychomycosis due to dermatophyte
+407	1551992	2008-11-06		239873007	"Osteoarthrosis, unspecified whether generalized or localized, involving lower leg"
+408	1540505	2005-03-09		162031009	Dyspepsia and other specified disorders of function of stomach
+409	1540505	2005-03-09		13200003	"Peptic ulcer without hemorrhage, without perforation AND without obstruction"
+410	1540505	2005-03-12		21522001	Abdominal pain
+411	1540505	2005-03-12		44054006	Diabetes mellitus type 2
+412	1540505	2005-03-25		301717006	Right upper quadrant pain
+413	1540505	2005-11-20		29857009	Chest pain
+414	1540505	2005-12-30		14302001	Absence of menstruation
+415	1540505	2005-12-30		59455009	Acidosis
+416	1540505	2005-12-30		14760008	Constipation
+417	1540505	2005-12-30		34095006	Dehydration
+418	1540505	2005-12-30		235595009	Gastroesophageal reflux disease
+419	1540505	2005-12-30		43339004	Hypokalemia
+420	1540505	2005-12-30		25374005	Other and unspecified noninfectious gastroenteritis and colitis
+421	1540505	2005-12-30		267432004	Pure hypercholesterolemia
+422	1540505	2006-04-10		38341003	Essential hypertension
+423	1540505	2006-04-10		25064002	Headache
+424	967332	2007-11-14		195967001	Asthma
+425	967332	2007-11-14		44054006	Diabetes mellitus type 2
+426	967332	2007-11-14		55822004	Hyperlipidemia
+427	967332	2007-11-23		78275009	Unspecified sleep apnea
+428	967332	2008-01-04		1201005	Benign essential hypertension
+429	967332	2008-01-04		29857009	Chest pain
+430	967332	2008-01-04		233817007	Coronary arteriosclerosis
+431	967332	2008-01-04		38341003	Essential hypertension
+432	967332	2008-01-04		43339004	Hypokalemia
+433	967332	2008-01-04		4557003	Preinfarction syndrome
+434	967332	2008-01-18		53741008	Coronary arteriosclerosis
+435	967332	2008-03-28		267432004	Pure hypercholesterolemia
+436	967332	2008-07-29		10509002	Acute bronchitis
+437	967332	2008-07-29		185903001	Needs influenza immunization
+438	1869612	2004-01-08		68272006	Acute maxillary sinusitis
+439	1869612	2004-04-28		1201005	Benign essential hypertension
+440	1869612	2004-04-28		65363002	Otitis media
+441	1869612	2004-08-23		198036002	Impotence of organic origin
+442	1869612	2005-08-03		85848002	Superficial injury of cornea
+443	1869612	2005-08-21		193995004	Acquired stenosis of nasolacrimal duct
+444	1869612	2006-11-13		55566008	Accident
+445	1869612	2006-11-13		58075000	Contusion of toe
+446	1869612	2006-11-13		44054006	Diabetes mellitus type 2
+447	1869612	2007-12-11		128302006	Chronic hepatitis C
+448	1081332	2004-04-12		442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"
+449	1081332	2004-06-15		54150009	Acute upper respiratory infection
+450	1081332	2004-07-13		65363002	Otitis media
+451	1081332	2004-10-29		68235000	Other diseases of nasal cavity and sinuses
+452	1081332	2004-12-05		25374005	Other and unspecified noninfectious gastroenteritis and colitis
+453	1081332	2004-12-07		62315008	Diarrhea
+454	1081332	2004-12-07		386661006	Fever and other physiologic disturbances of temperature regulation
+455	1081332	2004-12-07		34095006	Hypovolemia
+456	1081332	2004-12-07		233604007	Pneumonia
+457	1081332	2004-12-08		422400008	Vomiting
+458	1081332	2005-02-22		81564005	Chronic serous otitis media
+459	1081332	2007-06-20		35183001	Acute secretory otitis media
+460	724111	2003-11-11		78737005	Acute frontal sinusitis
+461	724111	2004-04-15		35489007	Depressive disorder
+462	724111	2004-04-15		18941000	Oppositional defiant disorder
+463	724111	2004-06-16		40055000	Chronic sinusitis
+464	724111	2006-10-19		406506008	Attention deficit hyperactivity disorder
+465	724111	2006-10-19		79298009	"Single major depressive episode, mild"
+466	724111	2007-05-18		55822004	Hyperlipidemia
+467	724111	2007-05-18		170539009	Poliomyelitis vaccination
+468	724111	2008-03-18		277843001	Disruptive behavior disorder
+469	724111	2008-04-01		15639000	"Single major depressive episode, moderate"
+470	724111	2008-07-01		35253001	Child attention deficit disorder
+471	724111	2008-07-01		18818009	"Recurrent major depressive episodes, moderate"
+472	1137192	2004-06-11		413838009	Chronic ischemic heart disease
+473	1137192	2005-06-03		53741008	Coronary arteriosclerosis
+474	1137192	2006-11-05		254902007	Benign prostatic hyperplasia
+475	1137192	2007-09-22		48694002	Anxiety
+476	1137192	2007-10-26		79298009	"Single major depressive episode, mild"
+477	1137192	2008-05-30		102594003	Abnormal ECG
+478	1137192	2009-07-04		21522001	Abdominal pain
+479	1137192	2009-07-04		230462002	Migraine with aura
+480	1137192	2009-07-04		63102001	Visual disturbance
+481	1137192	2009-07-13		297946004	Mononeuritis of lower limb
+482	880378	2003-11-07		21522001	Abdominal pain
+483	880378	2003-11-07		14760008	Constipation
+484	880378	2004-11-01		71186008	Croup
+485	880378	2004-11-01		16001004	Otalgia
+486	880378	2004-11-01		267036007	Other dyspnea and respiratory abnormality
+487	880378	2004-11-03		82272006	Common cold
+488	880378	2004-12-13		54150009	Acute upper respiratory infection
+489	880378	2004-12-13		65363002	Otitis media
+490	880378	2005-08-10		36971009	Acute sinusitis
+491	880378	2005-08-10		185903001	Needs influenza immunization
+492	880378	2007-07-26		46689006	Hypertrophy of tonsils
+493	880378	2009-07-23		49727002	Cough
+494	644201	2007-07-01		312894000	Disorder of bone and articular cartilage
+495	644201	2007-07-25		38341003	Essential hypertension
+496	644201	2007-07-25		55822004	Hyperlipidemia
+497	644201	2007-12-13		4800001	Urine finding
+498	644201	2008-04-21		10601006	Pain in limb
+499	644201	2008-10-20		1201005	Benign essential hypertension
+500	644201	2008-10-20		64859006	Osteoporosis
+501	765583	2004-03-06		35678005	Multiple joint pain
+502	765583	2006-12-23		404640003	Dizziness and giddiness
+503	765583	2007-03-10		68962001	"Myalgia and myositis, unspecified"
+504	765583	2008-01-28		36971009	Acute sinusitis
+505	765583	2008-01-28		9826008	Conjunctivitis
+506	765583	2008-07-18		408643008	Overlapping malignant neoplasm of female breast
+507	765583	2008-07-25		254837009	Primary malignant neoplasm of female breast
+508	765583	2008-07-26		161891005	Backache
+509	765583	2008-07-26		89164003	Breast lump
+510	765583	2008-08-15		54150009	Acute upper respiratory infection
+511	765583	2008-08-16		239160006	Hemorrhage AND/OR hematoma complicating procedure
+512	765583	2008-08-16		429494008	Seroma complicating a procedure
+513	640264	2006-11-20		70153002	Hemorrhoids
+514	640264	2007-03-15		12063002	Hemorrhage of rectum and anus
+515	640264	2007-03-15		80182007	Irregular periods
+516	640264	2007-03-29		52073004	Unspecified disorders of menstruation and other abnormal bleeding from female genital tract
+517	640264	2007-03-31		61582004	Allergic rhinitis
+518	640264	2007-04-02		36971009	Acute sinusitis
+519	640264	2007-04-02		128045006	Cellulitis and abscess of unspecified sites
+520	640264	2007-08-06		1201005	Benign essential hypertension
+521	640264	2007-08-06		84229001	Malaise and fatigue
+522	613876	2007-10-01		40930008	Hypothyroidism
+523	613876	2007-10-07		84229001	Malaise and fatigue
+524	613876	2007-10-13		30989003	Arthralgia of the lower leg
+525	613876	2007-10-13		312894000	Disorder of bone and articular cartilage
+526	613876	2007-10-21		168734001	Nonspecific abnormal findings on radiological and other examination of musculoskeletal system
+527	613876	2007-10-22		218218000	Overexertion and strenuous movements
+528	613876	2007-10-27		43878008	Streptococcal sore throat
+529	613876	2007-10-28		201836008	"Localized, primary osteoarthritis of the lower leg"
+530	8888801	2011-05-10		44054006	"Diabetes Mellitus, Type 2"
+531	8888801	1990		398909004	Rosacea
+532	8888801	2007-05-03		8722008	Aortic insufficiency
+533	8888801	2010-02-12		428007007	Erectile dysfunction
+534	8888801	2011-05-10		55822004	Hyperlipidemia
+535	8888801	2011-05-10	2012-08-27	34713006	Vitamin D deficiency
+536	8888801	2012-03-15	2012-03-24	15805002	Acute sinusitis
+537	8888801	2009-06-02		31822004	Urethritis
+538	8888802	1985		195967001	Asthma
+539	8888802	1985		61582004	Allergic rhinitis
+540	8888802	1995	2012-10-15	89765005	Tobacco use disorder
+541	8888802	2010-04-12		1201005	"Hypertension, benign"
+542	8888802	2011-04-17		41006004	Depression
+543	8888802	2012-10-07	2012-10-16	10509002	Acute Bronchitis
+544	8888802	2012-10-15		390951007	Impaired fasting glucose
+545	8888802	2009-03-02	2009-03-06	30800001	Acute Vaginitis
+546	8888803	2006		87522002	Iron deficiency anemia
+547	8888803	2011-11-04		40930008	Hypothyroidism
+548	8888803	2011-11-04	2012-05-07	34713006	Vitamin D deficiency
+549	8888803	2011-11-04		5935008	Contraceptive pill surveillance
+550	8888803	2010-12-14	2010-12-23	431737008	UTI
+551	8888803	2009-12-30	2010-01-08	405737000	Acute phargygitis
+552	8888803	2009-12-30	2010-01-08	386661006	Fever
+553	8888804	2010		266569009	Benign prostatic hypertrophy
+554	8888804	2011-02-03		267953003	"Joint pain, lower leg"
+555	8888804	2000		90560007	Gout
+556	8888804	2012-11-09		390951007	Impaired fasting glucose
+557	99912345	2006-07-18		65363002	otitis media
+558	99912345	2008-10-06		425229001	foreign body in larynx
+559	1577780	2009-10-12		56727007	Vitiligo
+600	1577780	2013-01-25		68225006	Alopecia Areata
+601	1288992	2009-07-18		356744012	Thiopurine methyltransferase deficiency

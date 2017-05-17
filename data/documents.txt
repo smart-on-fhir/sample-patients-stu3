@@ -1,0 +1,5 @@
+ID	PID	DATE	TITLE	MIME_TYPE	FILE_NAME	TYPE
+1	99912345	2010-05-12T04:00:00Z	A sample clinical report about the patient	application/pdf	report4521.pdf	report
+2	99912345	2010-05-12T04:00:00Z	Image of a report received from NGD about the patient	image/png	reportScan713.png	report
+3	99912345	2011-05-18T06:30:00Z	Notes about the patient	text/plain	notes6267.txt	note
+4	99912345	2010-05-12T04:00:00Z	Head photograph of the patient	image/jpeg	photo831.jpg	photograph

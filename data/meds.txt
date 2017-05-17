@@ -1,0 +1,364 @@
+ID	PID	START_DATE	END_DATE	RxNorm	Name	SIG	Q	DAYS	REFILLS	Q_TO_TAKE_VALUE	Q_TO_TAKE_UNIT	FREQUENCY_VALUE	FREQUENCY_UNIT
+1	629528	2006-12-03		748857	Yasmin 28 Day Pack	1 daily	28	28	0	1	{tablet}	1	/d
+2	629528	2006-12-14		352272	Escitalopram 10 MG Oral Tablet [Lexapro]	1 daily	90	90	0	1	{tablet}	1	/d
+3	644201	2006-10-24		199903	Hydrochlorothiazide 12.5 MG Oral Capsule	1 daily	30	30	0	1	{tablet}	1	/d
+4	644201	2007-12-13		617318	atorvastatin 20 MG Oral Tablet [Lipitor]	1 qhs	30	30	0	1	{tablet}	1	/d
+5	644201	2008-01-13		198211	Simvastatin 40 MG Oral Tablet	1 qhs	30	30	0	1	{tablet}	1	/d
+6	665677	2006-12-05		197379	Atenolol 100 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+7	665677	2007-04-03		197745	Guanfacine 1 MG Oral Tablet	1 qhs	30	30	0	1	{tablet}	1	/d
+8	665677	2007-10-04		197382	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+9	665677	2008-10-04		197746	Guanfacine 2 MG Oral Tablet	1 qhs	30	30	0	1	{tablet}	1	/d
+10	665677	2008-10-15		845660	24 HR Bupropion 150 MG Extended Release Tablet [Budeprion]	1 daily	30	30	0	1	{tablet}	1	/d
+11	665677	2008-12-05		403917	24 HR Bupropion 150 MG Extended Release Tablet	1 daily	90	90	0	1	{tablet}	1	/d
+12	665677	2006-02-02		316133	"Leflunomide 10 MILLIGRAM In 1 TABLET ORAL TABLET, FILM COATED"	1 daily	90	90	0	1	{tablet}	1	/d
+13	731673	2004-10-28		210596	Cetirizine 10 MG Oral Tablet [Zyrtec]	1 daily	30	30	0	1	{tablet}	1	/d
+14	731673	2004-10-28		211816	Levofloxacin 500 MG Oral Tablet [Levaquin]	1 daily	10	10	0	1	{tablet}	1	/d
+15	731673	2004-10-28		312664	Promethazine 25 MG Oral Tablet	1 qid prn nausea	20	5	0	1	{tablet}	4	/d
+16	731673	2004-11-03		856377	Trazodone 50 MG Oral Tablet	1 qhs	30	30	0	1	{tablet}	1	/d
+17	731673	2004-11-08		153892	montelukast 10 MG Oral Tablet [Singulair]	1 daily	30	30	0	1	{tablet}	1	/d
+18	731673	2004-11-08		352063	valdecoxib 20 MG Oral Tablet [Bextra]	1 daily prn pain	30	30	0	1	{tablet}	1	/d
+19	731673	2004-11-18		310812	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+20	731673	2004-11-18		314077	Lisinopril 20 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+21	731673	2005-02-17		615186	duloxetine 60 MG Enteric Coated Capsule [Cymbalta]	1 daily	30	30	0	1	{tablet}	1	/d
+22	731673	2005-02-17		828576	Acetaminophen 650 MG / propoxyphene napsylate 100 MG Oral Tablet	1 q6h prn pain	40	10	0	1	{tablet}	4	/d
+23	731673	2005-04-16		311470	Meclizine 25 MG Oral Tablet	1 bid prn dizziness	14	7	0	1	{tablet}	2	/d
+24	731673	2005-05-12		311992	Nitrofurantoin 100 MG Oral Capsule	1 bid	20	10	0	1	{tablet}	2	/d
+25	731673	2005-09-09		752370	120 ACTUAT Triamcinolone 0.055 MG/ACTUAT Nasal Inhaler [Nasacort]	2 puffs bid	1	30	0	2	{puff}	4	/d
+26	736230	2003-10-23		206486	Thyroxine 0.112 MG Oral Tablet [Synthroid]	1 daily	30	30	0	1	{tablet}	1	/d
+27	736230	2004-06-06		311304	Thyroxine 0.1 MG Oral Tablet [Synthroid]	1 daily	30	30	0	1	{tablet}	1	/d
+28	736230	2004-08-09		206475	Thyroxine 0.088 MG Oral Tablet [Synthroid]	1 daily	30	30	0	1	{tablet}	1	/d
+29	736230	2004-08-15		309114	Cephalexin 500 MG Oral Capsule	1 q6h	120	30	0	1	{tablet}	4	/d
+30	736230	2004-09-07		856903	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	1 q6h prn pain	120	30	0	1	{tablet}	4	/d
+31	736230	2005-07-18		308194	Amoxicillin 875 MG Oral Tablet	1 bid	60	30	0	1	{tablet}	2	/d
+32	736230	2006-03-04		317797	Thyroxine 0.088 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+33	736230	2006-04-17		199903	Hydrochlorothiazide 12.5 MG Oral Capsule	1 daily	30	30	0	1	{tablet}	1	/d
+34	736230	2006-05-02		206742	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	1 daily	30	30	0	1	{tablet}	1	/d
+35	736230	2006-10-10		834102	Penicillin V Potassium 500 MG Oral Tablet	1 tid	90	30	0	1	{tablet}	3	/d
+36	736230	2007-05-28		854873	zolpidem 10 MG Oral Tablet	1 qhs prn insomnia	30	30	0	1	{tablet}	1	/d
+37	736230	2008-02-10		834127	chlorhexidine gluconate 1.2 MG/ML Mouthwash	15 mL swish/spit bid	1	15	0	15	mL	2	/d
+38	736230	2009-02-08		314062	Triiodothyronine 0.005 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+39	736230	2009-07-21		312961	Simvastatin 20 MG Oral Tablet	1 qhs	90	90	0	1	{tablet}	1	/d
+40	765583	2006-10-06		197528	Clonazepam 1 MG Oral Tablet	1 bid prn anxiety	60	30	0	1	{tablet}	2	/d
+41	765583	2008-07-18		309462	Acetaminophen 300 MG / Codeine 30 MG Oral Tablet	1 q6h prn pain	10	2	0	1	{tablet}	4	/d
+42	765583	2008-08-17		856903	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	1 q6h prn pain	40	5	0	1	{tablet}	4	/d
+43	765583	2008-09-10		197582	Dexamethasone 4 MG Oral Tablet	taper as directed	12	3	0				
+44	765583	2008-09-12		197901	Lorazepam 1 MG Oral Tablet	1 bid prn anxiety	30	30	0	1	{tablet}	2	/d
+45	765583	2008-09-12		198365	Prochlorperazine 10 MG Oral Tablet	1 qid prn nausea	30	5	0	1	{tablet}	4	/d
+46	765583	2008-09-18		312055	Nystatin 100000 UNT/ML Oral Suspension	rinse mouth daily as directed	498	10	0			1	/d
+47	765583	2008-10-16		198080	Phenazopyridine 200 MG Oral Tablet	1 tid	15	5	0	1	{tablet}	3	/d
+48	765583	2008-11-13		198382	famciclovir 500 MG Oral Tablet	2 bid x1	4	1	0	2	{tablet}	2	/d
+49	765583	2008-12-18		762675	Methylprednisolone 4 MG Oral Tablet	taper as directed	21	7	0				
+50	765583	2009-01-24		197574	Desoximetasone 2.5 MG/ML Topical Cream	Apply bid to affected area	1	30	0			2	/d
+51	765583	2009-04-02		856377	Trazodone 50 MG Oral Tablet	1 qhs	30	30	0	1	{tablet}	1	/d
+52	767980	2004-10-18		309114	Cephalexin 500 MG Oral Capsule	1 qid	40	10	0	1	{tablet}	4	/d
+53	767980	2004-10-29		866514	Metoprolol 50 MG Oral Tablet	1 bid	60	30	0	1	{tablet}	2	/d
+54	767980	2004-12-10		283342	Guaifenesin 600 MG / Phenylephrine 30 MG Extended Release Tablet [Crantex LA]	1 bid	20	10	0	1	{tablet}	2	/d
+55	767980	2004-12-10		861007	Metformin 500 MG Oral Tablet	1 bid	60	30	0	1	{tablet}	2	/d
+56	767980	2004-12-24		309428	Codeine 2 MG/ML / Guaifenesin 20 MG/ML Oral Solution	5 mL q6h prn cough	1	6	0	5	mL	4	/d
+57	767980	2005-12-17		310489	24 HR Glipizide 2.5 MG Extended Release Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+58	767980	2005-12-17		543354	ezetimibe 10 MG / Simvastatin 40 MG Oral Tablet [Vytorin]	1 qhs	30	30	0	1	{tablet}	1	/d
+59	767980	2006-01-06		352304	ezetimibe 10 MG Oral Tablet [Zetia]	1 daily	30	30	0	1	{tablet}	1	/d
+60	767980	2006-01-06		859749	rosuvastatin 10 MG Oral Tablet [Crestor]	1 qhs	30	30	0	1	{tablet}	1	/d
+61	767980	2009-08-14		828576	Acetaminophen 650 MG / propoxyphene napsylate 100 MG Oral Tablet	1 q6h prn pain	20	4	0	1	{tablet}	4	/d
+62	880378	2005-08-10		617993	Amoxicillin 120 MG/ML / clavulanate potassium 8.58 MG/ML Oral Suspension	5 mL bid x 10 days	1	10	0	5	mL	2	/d
+63	880378	2005-12-08		308189	Amoxicillin 80 MG/ML Oral Suspension	7 mL bid x 10 days	1	10	0	7	mL	2	/d
+64	935270	2007-09-20		206206	lansoprazole 30 MG Enteric Coated Capsule [Prevacid]	1 daily	30	30	0	1	{tablet}	1	/d
+65	935270	2007-10-17		213169	clopidogrel 75 MG Oral Tablet [Plavix]	1 daily	30	30	0	1	{tablet}	1	/d
+66	935270	2007-10-17		311353	Lisinopril 2.5 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+67	935270	2007-10-17		351761	valsartan 80 MG Oral Tablet [Diovan]	1 daily	30	30	0	1	{tablet}	1	/d
+68	935270	2007-10-17		617318	atorvastatin 20 MG Oral Tablet [Lipitor]	1 qhs	30	30	0	1	{tablet}	1	/d
+69	935270	2007-10-19		866427	Metoprolol 25 MG Extended Release Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+70	935270	2008-09-13		562508	Amoxicillin 875 MG / Clavulanate 125 MG Oral Tablet	1 bid	20	10	0	1	{tablet}	2	/d
+71	935270	2009-01-04		866429	24 HR Metoprolol 25 MG Extended Release Tablet [Toprol-XL]	1 daily	30	30	0	1	{tablet}	1	/d
+72	967332	2007-10-03		153892	montelukast 10 MG Oral Tablet [Singulair]	1 daily	30	30	0	1	{tablet}	1	/d
+73	967332	2007-10-03		199246	glimepiride 2 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+74	967332	2007-10-03		213469	celecoxib 200 MG Oral Capsule [Celebrex]	1 daily	30	30	0	1	{tablet}	1	/d
+75	967332	2007-10-03		260333	Ramipril 10 MG Oral Capsule [Altace]	1 daily	30	30	0	1	{tablet}	1	/d
+76	967332	2007-10-03		311946	Niacin 500 MG Extended Release Tablet [Niaspan]	1 qhs	30	30	0	1	{tablet}	1	/d
+77	967332	2007-10-03		859749	rosuvastatin 10 MG Oral Tablet [Crestor]	1 qhs	30	30	0	1	{tablet}	1	/d
+78	967332	2007-11-16		199026	Doxycycline 100 MG Oral Capsule	1 bid	14	7	0	1	{tablet}	2	/d
+79	967332	2007-12-07		198211	Simvastatin 40 MG Oral Tablet	1 qhs	90	90	0	1	{tablet}	1	/d
+80	967332	2007-12-07		261962	Ramipril 10 MG Oral Capsule	1 daily	90	90	0	1	{tablet}	1	/d
+81	967332	2007-12-26		859046	Pramipexole 0.5 MG Oral Tablet [Mirapex]	1 tid	90	30	0	1	{tablet}	3	/d
+82	967332	2008-01-05		197381	Atenolol 50 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+83	967332	2008-01-05		200345	Simvastatin 80 MG Oral Tablet	1 qhs	30	30	0	1	{tablet}	1	/d
+84	967332	2008-01-05		213169	clopidogrel 75 MG Oral Tablet [Plavix]	1 daily	30	30	0	1	{tablet}	1	/d
+85	967332	2008-03-28		795737	Chantix First Month of Therapy Pack	1 daily	28	28	0	1	{tablet}	1	/d
+86	967332	2008-05-04		795735	Chantix Continuing Months Of Therapy Pack	1 daily	28	28	0	1	{tablet}	1	/d
+87	967332	2008-07-29		259543	Clarithromycin 500 MG Extended Release Tablet	1 bid	40	20	0	1	{tablet}	2	/d
+88	967332	2008-08-03		314200	pantoprazole 40 MG Enteric Coated Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+89	967332	2008-08-22		311945	Niacin 1000 MG Extended Release Tablet [Niaspan]	1 qhs	30	30	0	1	{tablet}	1	/d
+90	967332	2008-10-31		860981	Metformin 750 MG Extended Release Tablet	1 bid	60	30	0	1	{tablet}	2	/d
+91	967332	2008-11-20		199247	glimepiride 4 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+92	967332	2009-04-25		198039	Nitroglycerin 0.4 MG Sublingual Tablet	1 sl q5min x3 prn angina	7		0				
+93	981968	2004-10-27		745679	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler	2 puffs qid prn SOB	1	25	0	2	{puff}	4	/d
+94	981968	2005-05-17		828348	Cyclobenzaprine hydrochloride 10 MG Oral Tablet	1 tid prn	30	10	0	1	{tablet}	3	/d
+95	981968	2005-05-17		856903	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	1 q6h prn pain	12	3	0	1	{tablet}	4	/d
+96	981968	2005-10-17		285004	Etodolac 400 MG Extended Release Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+97	981968	2006-09-01		745752	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]	2 puffs qid prn SOB	1	25	0	2	{puff}	4	/d
+98	981968	2006-09-01		858869	carbinoxamine 0.4 MG/ML / Hydrocodone 1 MG/ML / Pseudoephedrine 6 MG/ML Oral Solution [Histex HC]		1	16	0				
+99	981968	2008-06-22		311753	mometasone furoate 1 MG/ML Topical Cream	apply daily	1	7	0			1	/d
+100	981968	2008-07-10		309114	Cephalexin 500 MG Oral Capsule	1 qid	40	10	0	1	{tablet}	4	/d
+101	1032702	2008-04-05		582620	Nizatidine 15 MG/ML Oral Solution [Axid]	10 mL bid	1	30	0	10	mL	2	/d
+102	1081332	2004-07-13		308189	Amoxicillin 80 MG/ML Oral Suspension	7 mL bid x 10 days	1	10	0	7	mL	2	/d
+103	1081332	2005-01-04		617993	Amoxicillin 120 MG/ML / clavulanate potassium 8.58 MG/ML Oral Suspension	5 mL bid x 10 days	1	10	0	5	mL	2	/d
+104	1081332	2005-01-18		211307	Azithromycin 20 MG/ML Oral Suspension [Zithromax]	15 mL daily x 3 days	1	3	0	15	mL	1	/d
+105	1081332	2005-01-28		261091	cefdinir 25 MG/ML Oral Suspension [Omnicef]	7 mL bid x 10 days	1	10	0	7	mL	2	/d
+106	1081332	2005-03-11		404630	Ciprofloxacin 3 MG/ML / Dexamethasone 1 MG/ML Otic Suspension [Ciprodex]	4 gtt in ear bid x7 days	1	7	0	4	[drp]	3	/d
+107	1081332	2007-06-06		239191	Amoxicillin 50 MG/ML Oral Suspension	10 mL bid x 10 days	1	10	0	10	mL	2	/d
+108	1081332	2007-08-28		208406	Sulfamethoxazole 40 MG/ML / Trimethoprim 8 MG/ML Oral Suspension [Sulfatrim]	5 mL bid x 10 days	1	10	0	5	mL	2	/d
+109	1098667	2005-01-13		150840	"Estrogens, Conjugated (USP) 0.625 MG Oral Tablet [Premarin]"	1 daily	30	30	0	1	{tablet}	1	/d
+110	1098667	2005-07-30		309462	Acetaminophen 300 MG / Codeine 30 MG Oral Tablet	1 q6h prn pain	24	6	0	1	{tablet}	4	/d
+111	1098667	2008-09-10		310333	fexofenadine 180 MG Oral Tablet	1 daily	90	90	0	1	{tablet}	1	/d
+112	1098667	2008-09-12		351396	Hydrocortisone 25 MG/ML Rectal Cream [Proctozone HC]	Apply bid x7 days	30	10	0			2	/d
+113	1098667	2009-04-23		310893	Hydrocortisone 25 MG/ML / pramoxine 10 MG/ML Topical Cream	Apply bid x7 days	28	28	0			2	/d
+114	1134281	2005-11-28		239191	Amoxicillin 50 MG/ML Oral Suspension	10 mL bid x 10 days	1	10	0	10	mL	2	/d
+115	1134281	2005-11-28		352027	carbinoxamine 1 MG/ML / Dextromethorphan 4 MG/ML / Pseudoephedrine 15 MG/ML Oral Solution [Carbofed DM Drops]		1	0	0				
+116	1134281	2006-01-08		104884	Metoclopramide 1 MG/ML Oral Solution	4 mL qid	1	30	0	4	mL	4	/d
+117	1134281	2006-01-08		755272	Ranitidine 15 MG/ML Oral Solution [Zantac]	6 mL bid	1	30	0	6	mL	2	/d
+118	1134281	2006-08-31		308189	Amoxicillin 80 MG/ML Oral Suspension	7 mL bid x 10 days	1	10	0	7	mL	2	/d
+119	1134281	2009-04-06		106346	Mupirocin 0.02 MG/MG Topical Ointment	apply nasally prn	1	30	0				
+120	1134281	2009-06-17		617423	Amoxicillin 40 MG/ML / Clavulanate 5.7 MG/ML Oral Suspension	7 mL bid x 10 days	1	10	0	7	mL	2	/d
+121	1137192	2008-08-20		308607	benazepril 10 MG Oral Tablet	1 daily	90	90	0	1	{tablet}	1	/d
+122	1137192	2008-08-20		312961	Simvastatin 20 MG Oral Tablet	1 qhs	90	90	0	1	{tablet}	1	/d
+123	1137192	2008-08-20		381056	Isosorbide Dinitrate 10 MG Oral Tablet	1 tid	270	90	0	1	{tablet}	3	/d
+124	1137192	2008-08-20		866511	Metoprolol 100 MG Oral Tablet	1 daily	180	90	0	1	{tablet}	1	/d
+125	1137192	2009-02-05		866514	Metoprolol 50 MG Oral Tablet	1 bid	180	90	0	1	{tablet}	2	/d
+126	1137192	2009-07-13		197589	Diazepam 10 MG Oral Tablet	1 bid prn anxiety	6	6	0	1	{tablet}	2	/d
+127	1137192	2009-07-13		762675	Methylprednisolone 4 MG Oral Tablet	taper as directed	21	3	0				
+128	1157764	2003-10-23		151124	anastrozole 1 MG Oral Tablet [Arimidex]	1 daily	30	30	0	1	{tablet}	1	/d
+129	1157764	2003-11-02		877300	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	1 weekly	4	30	0	1	{tablet}	1	/wk
+130	1157764	2006-10-31		311992	Nitrofurantoin 100 MG Oral Capsule	1 bid	60	30	0	1	{tablet}	2	/d
+131	1157764	2009-08-22		285128	bimatoprost 0.3 MG/ML Ophthalmic Solution [Lumigan]	1 gtt daily in OD	2	20	0	1	[drp]	1	/d
+132	1186747	2004-11-14		745679	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler	2 puffs qid prn SOB	1	25	0	2	{puff}	4	/d
+133	1186747	2005-07-20		404473	moxifloxacin 5 MG/ML Ophthalmic Solution [Vigamox]	1 gtt in eyes tid x7 days	1	7	0	1	[drp]	3	/d
+134	1186747	2006-01-07		284429	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	1 daily	30	30	0	1	{tablet}	1	/d
+135	1186747	2006-09-25		404630	Ciprofloxacin 3 MG/ML / Dexamethasone 1 MG/ML Otic Suspension [Ciprodex]	4 gtt in ear bid x7 day	1	7	0	4	[drp]	3	/d
+136	1186747	2007-07-17		352318	atomoxetine 18 MG Oral Capsule [Strattera]	1 daily	30	30	0	1	{tablet}	1	/d
+137	1186747	2008-01-13		352319	atomoxetine 25 MG Oral Capsule [Strattera]	1 daily	30	30	0	1	{tablet}	1	/d
+138	1186747	2008-05-21		745752	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]	2 puffs qid prn SOB	1	25	0	2	{puff}	4	/d
+139	1288992	2008-08-13		314077	Lisinopril 20 MG Oral Tablet	1 daily	90	90	0	1	{tablet}	1	/d
+140	1288992	2008-08-13		404673	Memantine 10 MG Oral Tablet [Namenda]	1 bid	180	90	0	1	{tablet}	2	/d
+141	1288992	2008-08-14		153357	donepezil 10 MG Oral Tablet [Aricept]	1 qhs	90	90	0	1	{tablet}	1	/d
+142	1288992	2008-08-14		197770	Hydrochlorothiazide 50 MG Oral Tablet	1 daily	90	90	0	1	{tablet}	1	/d
+143	1288992	2008-09-30		199381	potassium citrate 10 MEQ Extended Release Tablet	1 daily	200	90	0	1	{tablet}	1	/d
+144	1482713	2005-09-25		106256	Triamcinolone 1 MG/ML Topical Cream	apply bid to affected area	1	30	0			2	/d
+145	1482713	2006-06-15		197803	Ibuprofen 20 MG/ML Oral Suspension	7 mL q6h prn	1	30	0	7	mL	4	/d
+146	1482713	2006-06-15		313960	Diphenhydramine 2.5 MG/ML Oral Solution [Diphen]	5 mL q6h prn pruritis	1	7	0	5	mL	4	/d
+147	1482713	2008-05-04		198305	Triamcinolone 0.25 MG/ML Topical Cream	apply bid to affected area	1	30	0			2	/d
+148	1482713	2008-05-04		309367	Clotrimazole 10 MG/ML Topical Cream	apply bid to affected area	1	30	0			2	/d
+149	1557780	2008-10-06		762675	Methylprednisolone 4 MG Oral Tablet	taper as directed	21	6	0				
+150	1557780	2008-10-06		859258	Chlorpheniramine 1.6 MG/ML / Hydrocodone 2 MG/ML Extended Release Suspension [Tussionex PennKinetic]		120	12	0				
+151	1557780	2008-10-19		795737	Chantix First Month of Therapy Pack	1 daily	53	28	0	1	{tablet}	1	/d
+152	1557780	2009-01-26		261339	moxifloxacin 400 MG Oral Tablet [Avelox]	1 daily	10	10	0	1	{tablet}	1	/d
+153	1557780	2009-02-25		312615	Prednisone 20 MG Oral Tablet	taper as directed	15	5	0				
+154	1557780	2009-04-09		310942	Hydroxyzine 25 MG Oral Capsule	1 qid prn pruritis	30	7	0	1	{tablet}	4	/d
+155	1557780	2009-05-17		198145	Prednisone 10 MG Oral Tablet	taper as directed	15	5	0				
+156	1557780	2009-05-17		309098	Cefuroxime 500 MG Oral Tablet	1 bid	20	10	0	1	{tablet}	2	/d
+157	1557780	2009-05-31		259966	Methylprednisolone 4 MG Oral Tablet	taper as directed	120	30	0				
+158	1557780	2009-05-31		309309	Ciprofloxacin 500 MG Oral Tablet	1 bid	20	10	0	1	{tablet}	2	/d
+159	1557780	2009-06-30		200329	Omeprazole 40 MG Enteric Coated Capsule	1 daily	30	30	0	1	{tablet}	1	/d
+160	1557780	2009-08-02		580261	tiotropium 0.018 MG/ACTUAT Inhalant Powder [Spiriva]	1 puff daily	1	30	0	1	{puff}	1	/d
+161	1557780	2009-09-05		199026	Doxycycline 100 MG Oral Capsule	1 bid	20	10	0	1	{tablet}	2	/d
+162	1577780	2009-02-02		104112	mesalamine 400 MG Enteric Coated Tablet [Asacol]	2 tid	180	30	0	2	{tablet}	3	/d
+163	1577780	2009-02-10		153666	irbesartan 150 MG Oral Tablet [Avapro]	1 daily	30	30	0	1	{tablet}	1	/d
+164	1577780	2009-03-23		198211	Simvastatin 40 MG Oral Tablet	1 qhs	90	90	0	1	{tablet}	1	/d
+165	1577780	2009-03-23		206533	Thyroxine 0.2 MG Oral Tablet [Levothroid]	1 daily	78	90	0	1	{tablet}	1	/d
+166	1577780	2009-05-18		729929	24 HR venlafaxine 75 MG Extended Release Capsule [Effexor]	1 daily	90	90	0	1	{tablet}	1	/d
+167	1577780	2009-06-01		562508	Amoxicillin 875 MG / Clavulanate 125 MG Oral Tablet	1 bid	20	10	0	1	{tablet}	2	/d
+168	1577780	2009-06-17		198240	Tamoxifen 10 MG Oral Tablet	1 bid	180	90	0	1	{tablet}	2	/d
+169	1577780	2009-06-17		861771	Metformin 1000 MG / sitagliptin 50 MG Oral Tablet [Janumet 50/1000]	1 bid	180	90	0	1	{tablet}	2	/d
+170	1577780	2009-07-06		745752	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]	2 puffs qid prn SOB	1	25	0	2	{puff}	4	/d
+171	1577780	2009-07-12		313586	venlafaxine 75 MG Oral Tablet	1 bid	60	30	0	1	{tablet}	2	/d
+172	1614502	2007-09-14		313850	Amoxicillin 40 MG/ML Oral Suspension	15 mL bid x 10 days	1	10	0	15	mL	2	/d
+173	1614502	2007-10-28		309367	Clotrimazole 10 MG/ML Topical Cream	apply bid to affected area	1	30	0			2	/d
+174	1614502	2007-10-28		313797	Amoxicillin 25 MG/ML Oral Suspension	10 mL bid x 10 days	1	10	0	10	mL	2	/d
+175	1614502	2007-12-02		309054	cefdinir 25 MG/ML Oral Suspension	7 mL bid x 10 days	1	10	0	7	mL	2	/d
+176	1614502	2008-04-03		197803	Ibuprofen 20 MG/ML Oral Suspension	7 mL q6h prn	1	30	0	7	mL	4	/d
+177	1614502	2008-04-03		308189	Amoxicillin 80 MG/ML Oral Suspension	7 mL bid x 10 days	1	10	0	7	mL	2	/d
+178	1614502	2009-05-01		312320	Permethrin 10 MG/ML Topical Lotion	apply x1 as directed	1	1	0				
+179	1642068	2008-08-07		206485	Thyroxine 0.112 MG Oral Tablet [Levoxyl]	1 daily	90	90	0	1	{tablet}	1	/d
+180	1642068	2008-08-29		823934	Hydrochlorothiazide 12.5 MG / irbesartan 150 MG Oral Tablet [Avalide 150/12.5]	1 daily	90	90	0	1	{tablet}	1	/d
+181	1642068	2008-09-21		314200	pantoprazole 40 MG Enteric Coated Tablet	1 daily	90	90	0	1	{tablet}	1	/d
+182	1642068	2008-09-25		198191	Ranitidine 150 MG Oral Tablet	1 bid	90	90	0	1	{tablet}	2	/d
+183	1642068	2008-09-25		617264	Alendronate 70 MG Oral Tablet	1 weekly	12	90	0	1	{tablet}	1	/wk
+184	1642068	2008-10-02		312961	Simvastatin 20 MG Oral Tablet	1 qhs	90	90	0	1	{tablet}	1	/d
+185	1642068	2008-10-24		855918	Diclofenac 75 MG / Misoprostol 0.2 MG Enteric Coated Tablet [Arthrotec 75/200]	1 bid prn pain	270	90	0	1	{tablet}	2	/d
+186	1642068	2008-12-01		197886	Hydrochlorothiazide 12.5 MG / Lisinopril 20 MG Oral Tablet	1 daily	90	90	0	1	{tablet}	1	/d
+187	1642068	2008-12-20		746201	120 ACTUAT mometasone furoate 0.05 MG/ACTUAT Nasal Inhaler [Nasonex]	1 puff bid	1	60	0	1	{puff}	2	/d
+188	1642068	2009-03-19		284400	pantoprazole 40 MG Enteric Coated Tablet [Protonix]	1 daily	90	90	0	1	{tablet}	1	/d
+189	1642068	2009-06-22		314077	Lisinopril 20 MG Oral Tablet	1 daily	60	60	0	1	{tablet}	1	/d
+190	1685497	2003-11-18		197885	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+191	1685497	2003-11-25		311946	Niacin 500 MG Extended Release Tablet [Niaspan]	1 qhs	30	30	0	1	{tablet}	1	/d
+192	1685497	2004-09-06		308194	Amoxicillin 875 MG Oral Tablet	1 bid	60	30	0	1	{tablet}	2	/d
+193	1685497	2004-12-25		311945	Niacin 1000 MG Extended Release Tablet [Niaspan]	1 qhs	30	30	0	1	{tablet}	1	/d
+194	1685497	2005-01-18		213186	sibutramine 10 MG Oral Capsule [Meridia]	1 daily	30	30	0	1	{tablet}	1	/d
+195	1685497	2005-01-24		859749	rosuvastatin 10 MG Oral Tablet [Crestor]	1 qhs	30	30	0	1	{tablet}	1	/d
+196	1685497	2005-08-20		762675	Methylprednisolone 4 MG Oral Tablet	taper as directed	21	3	0				
+197	1685497	2005-08-20		828348	Cyclobenzaprine hydrochloride 10 MG Oral Tablet	1 tid prn	90	30	0	1	{tablet}	3	/d
+198	1685497	2005-09-10		859753	rosuvastatin 20 MG Oral Tablet [Crestor]	1 qhs	30	30	0	1	{tablet}	1	/d
+199	1685497	2007-03-29		854873	zolpidem 10 MG Oral Tablet	1 qhs prn insomnia	30	30	0	1	{tablet}	1	/d
+200	1768562	2008-07-30		200033	carvedilol 25 MG Oral Tablet	1 daily	60	30	0	1	{tablet}	1	/d
+201	1768562	2008-07-30		309889	Digoxin 0.25 MG Oral Tablet [Lanoxin]	1 daily	30	30	0	1	{tablet}	1	/d
+202	1768562	2008-07-30		828348	Cyclobenzaprine hydrochloride 10 MG Oral Tablet	1 tid prn	30	30	0	1	{tablet}	3	/d
+203	1768562	2008-07-30		855334	Warfarin 5 MG Oral Tablet [Coumadin]	1 daily	90	90	0	1	{tablet}	1	/d
+204	1768562	2008-08-22		213469	celecoxib 200 MG Oral Capsule [Celebrex]	1 daily	30	30	0	1	{tablet}	1	/d
+205	1768562	2008-08-28		261962	Ramipril 10 MG Oral Capsule	1 daily	180	90	0	1	{tablet}	1	/d
+206	1768562	2009-01-03		197606	Digoxin 0.25 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+207	1768562	2009-02-05		310429	Furosemide 20 MG Oral Tablet	1 daily	60	30	0	1	{tablet}	1	/d
+208	1796238	2009-06-09		745752	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]	2 puffs qid prn SOB	1	25	0	2	{puff}	4	/d
+209	1796238	2009-08-10		213271	sildenafil 100 MG Oral Tablet [Viagra]	1 daily prn ED	6	6	0	1	{tablet}	1	/d
+210	1869612	2003-10-27		153666	irbesartan 150 MG Oral Tablet [Avapro]	1 daily	30	30	0	1	{tablet}	1	/d
+211	1869612	2003-12-10		153843	glimepiride 1 MG Oral Tablet [Amaryl]	1 daily	30	30	0	1	{tablet}	1	/d
+212	1869612	2004-04-16		314076	Lisinopril 10 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+213	1869612	2004-04-30		153591	glimepiride 2 MG Oral Tablet [Amaryl]	1 daily	30	30	0	1	{tablet}	1	/d
+214	1869612	2004-04-30		197449	Cefaclor 500 MG Oral Capsule	1 bid	60	30	0	1	{tablet}	2	/d
+215	1869612	2005-08-01		199246	glimepiride 2 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+216	1869612	2008-10-12		197886	Hydrochlorothiazide 12.5 MG / Lisinopril 20 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+217	1869612	2008-10-12		314077	Lisinopril 20 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+218	1869612	2008-11-12		309114	Cephalexin 500 MG Oral Capsule	1 qid	28	9	0	1	{tablet}	4	/d
+219	2080416	2004-05-09		310149	Erythromycin 0.005 MG/MG Ophthalmic Ointment	1/4 inch in eye bid x5 days	3	5	0	0.25	[in_us]	2	/d
+220	2080416	2004-11-06		239191	Amoxicillin 50 MG/ML Oral Suspension	10 mL bid x 10 days	1	10	0	10	mL	2	/d
+221	2080416	2008-08-19		630208	Albuterol 0.83 MG/ML Inhalant Solution	1 nev q4h prn	75	4	0	1	{dose}	6	/d
+222	2113340	2006-09-02		198014	Naproxen 500 MG Oral Tablet	1 bid prn pain	60	30	0	1	{tablet}	2	/d
+223	2113340	2009-03-07		198039	Nitroglycerin 0.4 MG Sublingual Tablet	1 sl q5min x3 prn angina	25		0				
+224	2113340	2009-03-07		866924	Metoprolol 25 MG Oral Tablet	1 bid	30	30	0	1	{tablet}	2	/d
+225	2113340	2009-03-10		213169	clopidogrel 75 MG Oral Tablet [Plavix]	1 daily	30	30	0	1	{tablet}	1	/d
+226	2113340	2009-03-10		262095	atorvastatin 80 MG Oral Tablet [Lipitor]	1 qhs	30	30	0	1	{tablet}	1	/d
+227	2113340	2009-04-09		311354	Lisinopril 5 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+228	2113340	2009-04-09		686924	carvedilol 3.13 MG Oral Tablet	1 daily	60	30	0	1	{tablet}	1	/d
+229	2113340	2009-09-06		311681	Metronidazole 500 MG Oral Tablet	1 tid x7 days	14	7	0	1	{tablet}	3	/d
+230	2113340	2009-09-07		198342	Urea 400 MG/ML Topical Cream	apply bid to affected area	1	30	0			2	/d
+231	2113340	2009-09-07		204135	Desonide 0.0005 MG/MG Topical Ointment	apply bid to affected area	60	14	0			2	/d
+232	2169591	2003-10-25		197633	Doxycycline 100 MG Oral Tablet	1 bid	60	30	0	1	{tablet}	2	/d
+233	2169591	2003-10-25		208149	Sertraline 100 MG Oral Tablet [Zoloft]	1 daily	30	30	0	1	{tablet}	1	/d
+234	2169591	2003-11-03		748857	Yasmin 28 Day Pack	1 daily	30	30	0	1	{tablet}	1	/d
+235	2169591	2003-11-24		284497	tazarotene 1 MG/ML Topical Cream [Tazorac]	apply qhs	1	30	0			1	/d
+236	2169591	2003-12-21		199026	Doxycycline 100 MG Oral Capsule	1 bid	60	30	0	1	{tablet}	2	/d
+237	2169591	2004-03-28		284544	Benzoyl Peroxide 0.05 MG/MG / Clindamycin 0.01 MG/MG Topical Gel [Benzaclin]	apply bid to face	1	30	0			2	/d
+238	2169591	2004-07-07		750244	Low-Ogestrel 28 Day Pack	1 daily	30	30	0	1	{tablet}	1	/d
+239	2169591	2004-07-18		314106	Metronidazole 250 MG Oral Tablet	1 tid x7 days	90	30	0	1	{tablet}	3	/d
+240	2169591	2008-08-30		308047	Alprazolam 0.25 MG Oral Tablet	1 tid prn	24	8	0	1	{tablet}	3	/d
+241	2169591	2008-08-30		753482	Apri 28 Day Pack	1 daily	28	28	0	1	{tablet}	1	/d
+242	2169591	2008-10-03		312938	Sertraline 100 MG Oral Tablet	1 daily	30	30	0	1	{tablet}	1	/d
+243	2169591	2009-03-05		309309	Ciprofloxacin 500 MG Oral Tablet	1 bid	14	7	0	1	{tablet}	2	/d
+244	2354220	2008-10-15		309114	Cephalexin 500 MG Oral Capsule	1 qid	24	8	0	1	{tablet}	4	/d
+245	2354220	2008-10-15		309438	Codeine 2 MG/ML / Promethazine 1.25 MG/ML Oral Solution	5 mL q6h prn cough	1	7	0	5	mL	4	/d
+246	2354220	2008-11-29		562508	Amoxicillin 875 MG / Clavulanate 125 MG Oral Tablet	1 bid	20	10	0	1	{tablet}	2	/d
+247	2354220	2009-01-01		312289	Naloxone 0.5 MG / Pentazocine 50 MG Oral Tablet	1 q4h prn pain	20	7	0	1	{tablet}	6	/d
+248	2354220	2009-02-01		202301	"Estrogens, Conjugated (USP) 1.25 MG Oral Tablet [Premarin]"	1 daily	30	30	0	1	{tablet}	1	/d
+249	2502813	2008-11-13		197379	Atenolol 100 MG Oral Tablet	1 daily	90	90	0	1	{tablet}	1	/d
+250	2502813	2008-11-13		310812	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	1 daily	90	90	0	1	{tablet}	1	/d
+251	2502813	2008-11-13		580261	tiotropium 0.018 MG/ACTUAT Inhalant Powder [Spiriva]	1 puff daily	1	90	0	1	{puff}	1	/d
+252	2502813	2008-11-13		745813	120 ACTUAT Budesonide 0.08 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Metered Dose Inhaler [Symbicort 80/4.5]	1 puff bid	1	60	0	1	{puff}	2	/d
+253	2502813	2008-11-13		790840	24 HR Nisoldipine 8.5 MG Extended Release Tablet [Sular]	1 daily	90	90	0	1	{tablet}	1	/d
+254	2502813	2008-11-16		859088	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [Ventolin HFA]	2 puffs qid prn SOB	18	17	0	2	{puff}	4	/d
+255	2502813	2009-02-05		197633	Doxycycline 100 MG Oral Tablet	1 bid	14	7	0	1	{tablet}	2	/d
+256	2502813	2009-03-26		312504	Potassium Chloride 10 MEQ Extended Release Capsule	1 daily	60	30	0	1	{tablet}	1	/d
+257	2502813	2009-05-11		856903	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	1 q6h prn pain	30	4	0	1	{tablet}	4	/d
+258	8888801	2011-05-10		1169923	ActoPlusMet 500/15mg	1 tab po qd with evening meal							
+259	8888801	2011-09-26		402097	Cialis 20mg	"1/2 or 1 tab po qd prn, max 3x/wk"							
+260	8888801	2011-05-10		801663	Vitamin D3 2000 iu	2 tabs po qd							
+261	8888801	2011-05-10	2011-09-20	597966	Atorvastatin 20mg	1 tab po qd							
+262	8888801	2011-09-20		597983	Atorvastatin 40mg	1 tab po qd 							
+263	8888801	2012-03-15	2012-03-24	213199	Omnicef 300mg	1 cap po bid 							
+264	8888801	2011-05-10		572018	Metrocream 0.75%	apply thin layer to face bid							
+265	8888801	2009-06-02		309094	Ceftriaxone 500mg	IM injection in office x 1							
+266	8888801	2009-06-02	2009-06-08	197633	Doxycycline	100mg po bid x 7 days							
+267	8888802	2009-12-06		746735	Advair discus 250/50	1 puff every 12 hours (rinse mouth and throat after use)							
+268	8888802	2009-12-06		353534	Ventolin HFA	2 puffs every 4 hours prn asthma							
+269	8888802	2010-04-12		565420	Singulair 10mg	1 tab daily at bedtime							
+270	8888802	2007		997489	Allegra	1 tab daily  							
+271	8888802	2012-10-07	2012-11-06	795737	Chantix starter kit	as directed							
+272	8888802	2012-11-06	2013-02-04	637189	Chantix 1mg	1 tab twice daily							
+273	8888802	2011-04-17		352272	Lexapro 10mg	1 tab daily							
+274	8888802	2010-04-12	2010-06-02	316153	lisinopril 20mg	1 tab daily							
+275	8888802	2010-06-02		565167	Diovan 160mg	1 tab daily							
+276	8888802	2012-10-07	2012-10-16	824191	Augmentin 875mg	1 tab twice daily with food							
+277	8888802	2009-12-06		1167622	EpiPen	1 injection if needed for allergic reaction							
+278	8888802	2009-03-02	2009-03-06	218344	Metrogel-Vaginal	1 appful per vagina qhs x 5 days							
+279	8888803	2011-11-04		323925	Ferrous gluconate 325mg	1 tab po qd							
+280	8888803	2011-11-04	2012-02-01	966158	Synthroid 25mcg	1 tab po qd							
+281	8888803	2012-02-01	2012-09-06	966247	Synthroid 50mcg	1 tab po qd							
+282	8888803	2012-09-06		966171	Synthroid 75mcg	1 tab po qd							
+283	8888803	2011-11-04		215098	Alesse	1 tab po qd							
+284	8888803	2012-05-07		801663	vitamin D3 2000 iu	1 tab po qd							
+285	8888803	2011-11-04		812178	multivitamin 	1 tab po qd							
+286	8888803	2010-12-14	2010-12-23	539712	Macrobid 100mg	1 cap po bid x 10 days							
+287	8888803	2009-12-30	2010-01-08	329066	Amoxicillin 875mg	1 tab po bid x 10 days							
+288	8888804	2011-02-03		1169778	Flomax 0.4 mg	"1 capsule po qd, 30 min. before a meal"							
+289	8888804	2010-06-04		313219	Terazosin 5mg	1 capsule po qd at bedtime							
+290	8888804	2011-02-03	2011-07-12	198014	Naproxen 500mg	1 tab po bid for pain							
+291	8888804	2011-07-12		213469	Celebrex 200mg	1 capsule po qd-bid for pain							
+292	8888804	2011-02-03	2012-01-17	197319	Allopurinol 100mg	2 tabs po qd							
+293	8888804	2012-01-17		197319	Allopurinol 100mg	3 tabs po qd							
+294	8888804	2012-11-09		860975	Metformin XR 500mg	1 tab po qd with evening meal							
+295	99912345	2006-10-08		309054	Cefdinir 25 MG/ML Oral Suspension	7 mL bid x 10 days				7	mL	2	/d
+296	99912345	2009-08-03		312320	Permethrin 10 MG/ML Topical Lotion	apply x1 as directed							
+297	5555001	2014-11-02		847241	Levemir Flexpen	50 units SQ once daily	1	45	0	50	units	1	/d
+298	5555001	2013-03-06	2014-11-01	847241	Levemir Flexpen	40 units SQ once daily	1	45	0	40	units	1	/d
+299	5555001	2014-11-01		847265	Novolog Flexpen	sliding scale prn	1	60	0				
+300	5555001	2014-10-04		351250	Escitalopram Tablet 20mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+301	5555001	2012-09-06	2014-10-06	349332	Escitalopram Tablet 10mg	1 tab qd	30	30	0	1	{tablet}	2	/d
+302	5555001	2014-10-16		197418	Bumetanide Tablet 1 mg	2 tabs bid	120	30	0	2	{tablet}	2	/d
+303	5555001	2013-10-13	2014-10-02	197418	Bumetanide Tablet 1 mg	1 tab bid	60	30	0	1	{tablet}	2	/d
+304	5555001	2012-02-01		979480	Losartan Tablet 100mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+305	5555001	2013-05-12		200033	Carvedilol Tablet 25mg	1 tab bid	60	30	0	1	{tablet}	2	/d
+306	5555001	2014-08-01		197987	Minoxidil Tablet 2.5mg	1 tab bid	60	30	0	1	{tablet}	2	/d
+307	5555001	2014-11-01		884173	Clonidine HCl Tablet 0.1 mg	2 tabs bid	120	30	0	2	{tablet}	2	/d
+308	5555001	2014-01-02		197320	Allopurinol Tablet 300mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+309	5555001	2014-08-01		999946	Simcor (simvastatin/niacinER) Tablet 40/500mg	1 tab qhs	30	30	0	1	{tablet}	1	/d
+310	5555001	2014-01-01	2014-08-08	198211	Simvastatin Tablet 40mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+311	5555001	2014-05-03		1367410	"Ergocalciferol Capsule 50,000 iu"	1 cap once a week	12	84	0	2	{tablet}	1	/wk
+312	5555001	2014-02-04	2014-05-02	1367410	"Ergocalciferol Capsule 50,000 iu"	1 cap 2x/week	24	84	0	1	{tablet}	2	/wk
+313	5555001	2014-08-05		243670	Aspirin Tablet 81mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+314	5555001	2014-10-03		197527	Clonazepam Tablet 0.5mg	1 tab bid prn anxiety	60	30	0	1	{tablet}	2	/d
+315	5555002	2012-04-06		259255	Atorvastatin Tablet 80mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+316	5555002	2014-08-06		352304	Zetia Tablet 10mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+317	5555002	2014-11-01		1098141	Niacin ER Tablet 500mg	1 tab qhs	30	30	0	1	{tablet}	1	/d
+318	5555002	2014-08-06		1043582	Kombiglyze XR Tablet 5/500mg	1 tab daily with meal	30	30	0	1	{tablet}	1	/d
+319	5555002	2014-05-16	2014-08-04	860996	Metformin XR Tablet 1000mg	1 tab daily with meal	30	30	0	1	{tablet}	1	/d
+320	5555002	2014-02-15	2014-05-12	860975	Metformin XR Tablet 500mg	1 tab daily with meal	30	30	0	1	{tablet}	1	/d
+321	5555002	2014-11-15		1544918	Bydureon 2mg per 0.65 ml prefilled pen	1 injection SQ weekly	12	84	0	1	inj	1	/wk
+322	5555002	2013-02-01		897646	Verapamil SR Tablet 240mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+323	5555002	2013-02-02		751616	Bystolic Tablet 10mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+324	5555002	2013-02-03		401968	Ramipril Tablet 10mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+325	5555002	2013-02-04		746201	Nasonex Nasal Inhaler	1 puffs per nostril qd	1	30	0	1	{puff}	1	/d
+326	5555002	2013-02-05		855174	Xyzal Tablet 5mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+327	5555002	2014-10-15		799040	Alvesco Metered Dose Inhaler 80mcg/puff	1 puff bid	1	30	0	1	{puff}	2	/d
+328	5555002	2012-11-04		859088	Ventolin HFA (200 actuations)	2 puffs q4-6 hrs prn asthma	1	30	0				
+329	5555002	2014-08-04		1092380	Vitamin D3 Capsule 4000 iu	1 cap daily	30	30	0	1	{tablet}	1	/d
+330	5555002	2014-02-06	2014-08-04	1367410	"Ergocalciferol Capsule 50,000 iu"	1 cap once a week	12	84	0	1	{tablet}	1	/wk
+331	5555002	2012-09-12		411110	Calcium Acetate 500mg	1 cap bid	60	30	0	1	{tablet}	2	/d
+332	5555002	2014-12-07		197807	Ibuprofen Capsule 800mg	1 tab tid prn pain	90	30	0	1	{tablet}	3	/d
+333	5555002	2014-12-07		828348	Cyclobenzaprine Tablet 10mg	1 tab qhs prn muscle spasm	30	30	0	1	{tablet}	1	/d
+334	5555002	2014-08-29		854873	Zolpidem Tablet 10mg	1 tab qhs prn sleep	30	30	0	1	{tablet}	1	/d
+335	5555003	2012-04-23		200033	Carvedilol Tablet 25mg	1 tab bid	60	30	0	1	{tablet}	2	/d
+336	5555003	2014-05-24		200096	Irbesartan Tablet 300mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+337	5555003	2012-07-23	2014-05-24	979480	losartan Tablet 100mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+338	5555003	2014-11-02		243670	Aspirin Tablet 81mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+339	5555003	2014-11-01	2014-05-14	1116639	Brilinta Tablet 90mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+340	5555003	2012-05-02		402014	Omeprazole Delayed Release Tablet 20mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+341	5555003	2014-08-11		966247	Synthroid Tablet 50mcg	1 tab qd	30	30	0	1	{tablet}	1	/d
+342	5555003	2014-08-11	2014-05-03	966158	Synthroid Tablet 25mcg	1 tab qd	30	30	0	1	{tablet}	1	/d
+343	5555003	2012-10-17		707566	Systane ophthalmic solution	1 drop OU bid	1	30	0	1	[drp]	2	/d
+344	5555003	2013-08-12		745752	ProAir HFA	2 puffs every 4 hrs for asthma	1	30	0				
+345	5555003	2014-08-12		896031	Flovent 100mcg/inh	1 puff every 12 hrs	1	30	0				
+346	5555003	2012-03-19	2014-08-12	896185	Advair 100/50	1 puff every 12 hrs for asthma	1	30	0				
+347	5555003	2014-03-19		352304	Zetia Tablet 10mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+348	5555003	2014-02-01	2014-03-19	859749	Crestor Tablet 10mg	1 tab qhs	30	30	0	1	{tablet}	1	/d
+349	5555003	2012-04-12		577208	Fish Oil Capsule 1000mg	2 caps qd	60	30	0	2	{tablet}	1	/d
+350	5555003	2011-09-11		880853	Metamucil Sugar-Free	1 tsp. tid	1	30	0	1	tsp	3	/d
+351	5555003	2015-01-03		240029	Vitamin D3 Capsule 5000 iu	1 cap qd	30	30	0	1	{tablet}	1	/d
+352	5555003	2014-09-05	2014-12-23	1367410	"Ergocalciferol Capsule 50,000 iu"	1 cap once a week	12	84	0	1	{tablet}	1	/wk
+353	6666001	2015-01-01		573621	Albuterol 0.09 MG/ACTUAT [Proventil]	prn							
+354	6666001	2015-01-01		896235	60 ACTUAT Fluticasone propionate 0.045 MG/ACTUAT / salmeterol 0.021 MG/ACTUAT Metered Dose Inhaler [Advair]	1 puff bid				1	{puff}	2	/d
+355	6666001	2015-01-01		373585	Prednisone Oral Tablet	prn							
+356	6666001	2015-01-01		1183694	Singulair Pill	1 tab qd				1	{tablet}	1	/d
+357	4444001	2014-06-21		569998	Acetaminophen 325 MG [Tylenol]	1 tab q4h prn				1	{tablet}	6	/d
+358	4444001	2014-06-21		1189780	Aspirin 81 MG [Ecotrin]	1 tab qd				1	{tablet}	1	/d
+359	4444001	2015-01-27	2016-01-27	855635	Diclofenac Sodium 0.01 MG/MG Topical Gel [Voltaren]	bid						2	/d
+360	4444001	2012-04-13		635969	ferrous sulfate 325 MG [Feosol]	1 tab tid				1	{tablet}	3	/d
+361	4444001	2015-02-07		567575	Lisinopril 5 MG [Prinivil]	1 tab qd				1	{tablet}	1	/d
+362	4444001	2015-01-27		860976	Metformin hydrochloride 500 MG [Glucophage]	1 tab bid wf				1	{tablet}	2	/d
+363	4444001	2014-08-18	2015-08-18	1370507	metoprolol succinate 25 MG [Toprol]	1 tab qd				1	{tablet}	1	/d

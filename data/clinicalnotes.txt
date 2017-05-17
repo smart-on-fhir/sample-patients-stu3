@@ -1,0 +1,5 @@
+ID	PID	DATE	TITLE	MIME_TYPE	FILE_NAME
+1	2169591	2006-09-01	Pulmonology clinic acute visit	text/plain	note1.txt
+2	2169591	2007-01-21	Primary care clinic visit	text/plain	note2.txt
+3	2169591	2006-08-30	Emergency Department Note	text/plain	note3.txt
+4	99912345	2012-05-17	Telephone note	text/plain	note1.txt
