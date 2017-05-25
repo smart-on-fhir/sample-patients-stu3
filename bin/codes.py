@@ -1,7 +1,7 @@
 """Module for importing code mapping files: only LOINC required for now"""
-import csv
 from testdata import LOINC_FILE
-
+import argparse
+import csv
 
 class Loinc(object):
     """Creates loinc code instances and holds global loinc dictionary"""
@@ -30,3 +30,23 @@ class Loinc(object):
         self.source= l['SOURCE']
         self.units_required = l['UNITSREQUIRED']
         self.__class__.info[self.code]=self
+
+if __name__== '__main__':
+
+    PARSER = argparse.ArgumentParser(description='Test Data Codes Module')
+    GROUP = PARSER.add_mutually_exclusive_group()
+    GROUP.add_argument(
+        '--loinc',
+        nargs='?',
+        const='25324-5',
+        help='Display info for a LOINC code (default = 25324-5)'
+    )
+    ARGS = PARSER.parse_args()
+
+    Loinc.load([ARGS.loinc])
+
+    if not ARGS.loinc in Loinc.info:
+        PARSER.error("LOINC code %s not found"%ARGS.loinc)
+    else:
+        L = Loinc.info[ARGS.loinc]
+        print L.code, L.name, L.scale, L.ucum, L.system

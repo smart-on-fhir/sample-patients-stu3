@@ -47,6 +47,7 @@ class Immunization(object):
                 "id"          : prefix + "Immunization-" + data["ID"],
                 "resourceType": "Immunization",
                 "status"      : "completed",
+                "primarySource": True,
                 "patient"     : {
                     "reference": "Patient/" + prefix + data["PID"]
                 },

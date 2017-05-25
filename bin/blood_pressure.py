@@ -1,3 +1,4 @@
+from patient import Patient
 
 def BloodPressure(bp, prefix=""):
     """Generates BloodPressure Observation JSON object"""
@@ -11,6 +12,7 @@ def BloodPressure(bp, prefix=""):
     if prefix:
         prefix += "-"
 
+    patient = Patient.mpi[bp["pid"]]
 
     out = {
         "resourceType": "Observation",
@@ -43,6 +45,9 @@ def BloodPressure(bp, prefix=""):
                 "display": "Blood pressure"
             },
             "text": "Blood pressure"
+        },
+        "performer": {
+            "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
         },
         "component": [
             {

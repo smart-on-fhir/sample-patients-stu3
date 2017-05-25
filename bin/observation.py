@@ -1,3 +1,5 @@
+from patient import Patient
+
 def escape(s):
     """Escapes a string to make it HTML-safe"""
     s = str(s)
@@ -21,6 +23,8 @@ def Observation(data, prefix=""):
     if prefix:
         prefix += "-"
 
+    patient = Patient.mpi[data["pid"]]
+
     out = {
         "resourceType": "Observation",
         "status": "unknown",
@@ -33,12 +37,16 @@ def Observation(data, prefix=""):
             }
         ],
         "text": {
+            "status": "generated",
             "div": '<div xmlns="http://www.w3.org/1999/xhtml">%s: %s = %s %s</div>' % (
                 escape(data["date"]),
                 escape(data["name"]),
                 escape(data["value"]),
                 escape(data.get("units", ''))
             )
+        },
+        "performer": {
+            "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
         },
         "code": {
             "coding": [
@@ -102,7 +110,7 @@ def Observation(data, prefix=""):
     # name" with a capital on the first letter of the type).
     if data.has_key("scale") and data["scale"] == 'Qn':
         out["valueQuantity"] = {
-            "value" : data["value"] or float(0),
+            "value" : float(data["value"] or "0"),
             "unit"  : data["units"],
             "system": "http://unitsofmeasure.org",
             "code"  : data["unitsCode"]

@@ -5,7 +5,7 @@ def Binary(data):
     return {
         "request": {
             "method": "PUT",
-            "url"   : data["id"]
+            "url"   : "Binary/" + data["id"]
         },
         "resource": {
             "id"          : data["id"],

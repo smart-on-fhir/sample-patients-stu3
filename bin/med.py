@@ -97,7 +97,7 @@ class Med(object):
 
         # dosageInstruction - Indicates how the medication is to be used by the patient.
         instruction = {
-            "timing": {}
+            "text": self.sig
         }
 
         if self.freqduration:
@@ -106,19 +106,18 @@ class Med(object):
                     "boundsPeriod": {
                         "start": self.start
                     },
-                    "frequency"  : self.freq,
+                    "frequency"  : int(self.freq),
                     "period"     : 1,
-                    "periodUnits": self.freqduration
-                },
-                "text": self.sig
+                    "periodUnit" : self.freqduration
+                }
             }
 
             if self.end != "":
                 instruction["timing"]["repeat"]["boundsPeriod"]["end"] = self.end
 
-        if self.qtt:
+        if self.qtt and self.qttunit:
             instruction["doseQuantity"] = {
-                "value" : self.qtt,
+                "value" : float(self.qtt),
                 "unit"  : self.qttunit,
                 "system": "http://unitsofmeasure.org",
                 "code"  : self.qttunit
@@ -127,23 +126,24 @@ class Med(object):
         if "prn" in self.sig:
             instruction["asNeededBoolean"] = True
 
-        out["resource"]["dosageInstruction"] = [instruction]
+        if self.sig:
+            out["resource"]["dosageInstruction"] = [instruction]
 
         # dispenseRequest - Medication supply authorization
         if self.refills or self.q or self.days:
             dispenseRequest = {}
             if self.refills:
                 dispenseRequest["numberOfRepeatsAllowed"] = self.refills
-            if self.q:
+            if self.q and self.qttunit:
                 dispenseRequest["quantity"] = {
-                    "value" : self.q,
+                    "value" : float(self.q),
                     "unit"  : self.qttunit,
                     "system": "http://unitsofmeasure.org",
                     "code"  : self.qttunit
                 }
             if self.days:
                 dispenseRequest["expectedSupplyDuration"] = {
-                    "value" : self.days,
+                    "value" : int(self.days),
                     "unit"  : "days",
                     "system": "http://unitsofmeasure.org",
                     "code"  : "d"

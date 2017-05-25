@@ -2,7 +2,6 @@ import csv
 # import datetime
 from random import randint
 from testdata import rndDate, rndName, rndAddress, rndTelephone, toEmail, rndGestAge
-
 from testdata import PATIENTS_FILE, RI_PATIENTS_FILE
 
 XMLNS_HTML = "http://www.w3.org/1999/xhtml"
@@ -210,7 +209,7 @@ class Patient(object):
         if self.photo_title:
             out["photo"] = {
                 "contentType": self.photo_code,
-                "url"        : "/" + self.photo_binary_id,
+                "url"        : "/Binary/" + self.photo_binary_id,
                 "hash"       : self.photo_hash,
                 "title"      : self.photo_title,
                 "size"       : self.photo_size

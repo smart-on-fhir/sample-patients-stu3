@@ -41,6 +41,12 @@ GENERATION_MAP = {
     "ClinicalNotes": True
 }
 
+SYSTEMS = {
+    "SNOMED": "http://snomed.info/sct",
+    "NDFRT" : "http://rxnav.nlm.nih.gov/REST/Ndfrt", #"http://hl7.org/fhir/ndfrt",
+    "UNII"  : "http://fda.gov/UNII/", #"http://fdasis.nlm.nih.gov",
+    "RXNORM": "http://www.nlm.nih.gov/research/umls/rxnorm" #"http://www.nlm.nih.gov/research/umls/rxnorm"
+}
 
 def getVital(v, vt, encounter_id):
     return {
@@ -217,7 +223,7 @@ class FHIRSamplePatient(object):
             if self.pid in Document.documents:
                 for d in [doc for doc in Document.documents[self.pid] if doc.type == 'photograph']:
                     data = fetch_document(self.pid, d.file_name)
-                    binary_id = uid("Binary", "%s-photo" % d.id, prefix)
+                    binary_id = uid(None, "%s-photo" % d.id, prefix)
                     bundle["entry"].append(Binary({
                         "mime_type": d.mime_type,
                         "content"  : data['base64_content'],
@@ -324,16 +330,16 @@ class FHIRSamplePatient(object):
                     if al.statement == 'positive':
                         if al.type == 'drugClass':
                             al.typeDescription = 'medication'
-                            al.system = "http://rxnav.nlm.nih.gov/REST/Ndfrt"
+                            al.system = SYSTEMS["NDFRT"] # "http://rxnav.nlm.nih.gov/REST/Ndfrt"
                         elif al.type == 'drug':
                             al.typeDescription = 'medication'
-                            al.system = "http://www.nlm.nih.gov/research/umls/rxnorm"
+                            al.system = SYSTEMS["RXNORM"] # "http://www.nlm.nih.gov/research/umls/rxnorm"
                         elif al.type == 'food':
                             al.typeDescription = 'food'
-                            al.system = "http://fda.gov/UNII/"
+                            al.system = SYSTEMS["UNII"] # "http://fda.gov/UNII/"
                         elif al.type == 'environmental':
                             al.typeDescription = 'environment'
-                            al.system = "http://fda.gov/UNII/"
+                            al.system = SYSTEMS["UNII"] # "http://fda.gov/UNII/"
                         if al.reaction:
                             if al.severity.lower() == 'mild':
                                 al.severity = 'mild'
@@ -351,7 +357,7 @@ class FHIRSamplePatient(object):
                                 al.severity = None
                         bundle["entry"].append(al.toJSON(prefix))
                     elif al.statement == 'negative' and al.type == 'general':
-                        if al.code == '160244002':
+                        if al.code == '716186003':
                             al.loinc_code = '52473-6'
                             al.loinc_display = 'Allergy'
                             al.text = 'No known allergies'
@@ -363,8 +369,9 @@ class FHIRSamplePatient(object):
                             bundle["entry"].append(al.toJSON(prefix))
                         else:
                             bundle["entry"].append(GeneralObservation({
+                                "id"    : al.id,
                                 "date"  : al.start,
-                                "system": "http://snomed.info/sct",
+                                "system": SYSTEMS["SNOMED"], # "http://snomed.info/sct",
                                 "code"  : al.code,
                                 "name"  : al.allergen,
                                 "categoryCode"   : "exam",
@@ -389,7 +396,7 @@ class FHIRSamplePatient(object):
                 doc = Binary({
                     "mime_type": d.mime_type,
                     "content"  : data['base64_content'],
-                    "id"       : uid("Binary", "%s-document" % d.id, prefix)
+                    "id"       : uid(None, "%s-document" % d.id, prefix)
                 })
 
                 # bundle["entry"].append(doc)
@@ -428,27 +435,28 @@ class FHIRSamplePatient(object):
                     # id = uid("Binary", "%s-note" % d.id, prefix)
                     # d.binary_id = id
 
-
+                    binary_id = uid(None, "%s-note" % d.id, prefix)
 
                     note = Binary({
                         "mime_type": d.mime_type,
                         "content"  : data['base64_content'],
-                        "id"       : uid("Binary", "%s-note" % d.id, prefix)
+                        "id"       : binary_id
                     })
 
                     bundle["entry"].append(note)
 
                     # if GENERATION_MAP["Documents"]:
                     docRef = Document({
-                        'ID'       : uid(None, "%s-note" % d.id, prefix),
+                        'ID'       : uid(None, "%s-note-ref" % d.id, prefix),
                         'PID'      : self.pid,
-                        'DATE'     : datetime.now().isoformat(),
+                        'DATE'     : datetime.now().strftime("%Y-%m-%dT%H:%M:%S+" + "05:00"), #.isoformat(),
                         'TITLE'    : "Note",
                         'MIME_TYPE': d.mime_type,
                         'FILE_NAME': d.file_name,
-                        'TYPE'     : "Note"
+                        'TYPE'     : "Note",
+                        'mime_type': d.mime_type
                     })
-                    bundle["entry"].append(docRef.toJSON(note, prefix))
+                    bundle["entry"].append(docRef.toJSON(data, binary_id, prefix))
             #         id = uid("DocumentReference", "%s-note" % d.id, prefix)
             #         d.system = "http://loinc.org"
             #         d.code = '34109-9'
@@ -512,5 +520,3 @@ class FHIRSamplePatient(object):
             "patient-%s.fhir-bundle.json" % self.pid
         ), "w")
         print >> patientFile, pp_json(bundle)
-
-    

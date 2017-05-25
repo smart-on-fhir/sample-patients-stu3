@@ -1,5 +1,7 @@
 import csv
 from testdata import SOCIALHISTORY_FILE
+from testdata import rndDate
+from patient import Patient
 
 SMOKINGCODES = {
     '428041000124106': 'Current some day smoker',
@@ -41,6 +43,8 @@ class SocialHistory(object):
         if prefix:
             prefix += "-"
 
+        patient = Patient.mpi[self.pid]
+
         return {
             "request": {
                 "method": "PUT",
@@ -58,9 +62,14 @@ class SocialHistory(object):
                     }
                 ],
                 "text": {
+                    "status": "generated",
                     "div": '<div xmlns="http://www.w3.org/1999/xhtml">' +
                            'Tobacco smoking status: %s</div>'%self.smokingStatusText
                 },
+                "performer": {
+                    "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
+                },
+                "effectiveDateTime": rndDate(2016).isoformat(),
                 "code": {
                     "coding": [
                         {

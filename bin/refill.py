@@ -89,14 +89,14 @@ class Refill(object):
                 },
 
                 "quantity": {
-                    "value" : self.q,
+                    "value" : float(self.q),
                     "unit"  : "tablets",
                     "system": "http://unitsofmeasure.org",
                     "code"  : "{tablets}"
                 },
 
                 "daysSupply": {
-                    "value" : self.days,
+                    "value" : int(self.days),
                     "unit"  : "days",
                     "system": "http://unitsofmeasure.org",
                     "code"  : "d"

@@ -1,8 +1,12 @@
+from patient import Patient
+
 def GeneralObservation(data, prefix=""):
     """Builds and returns the List JSON"""
 
     if prefix:
         prefix += "-"
+
+    patient = Patient.mpi[data["pid"]]
 
     out = {
         "resourceType": "Observation",
@@ -30,6 +34,9 @@ def GeneralObservation(data, prefix=""):
         },
         "subject": {
             "reference": "Patient/" + prefix + data["pid"]
+        },
+        "performer": {
+            "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
         },
         "effectiveDateTime": data["date"],
         "category": [

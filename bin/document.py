@@ -34,7 +34,7 @@ class Document(object):
         else:
             self.__class__.documents[self.pid] = [self]
 
-    def toJSON(self, binary={}, prefix=""):
+    def toJSON(self, binary={}, binary_id="", prefix=""):
         """Builds and returns the DocumentReference JSON"""
 
         if prefix:
@@ -60,7 +60,7 @@ class Document(object):
                 },
                 "status" : "current",
                 "created": self.date,
-                "indexed": datetime.now().isoformat(),
+                "indexed": datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "type": {
                     "coding": [
                         {
@@ -78,16 +78,20 @@ class Document(object):
             }
         }
 
-        if binary.has_key("binary_id") and binary.has_key("mime_type"):
+        if binary_id and self.mime_type:
             attachment = {
-                "url"        : "/" + binary["binary_id"],
-                "contentType": binary["mime_type"]
+                "url"        : "/" + binary_id,
+                "contentType": self.mime_type
             }
 
             if binary.has_key("size") and binary.has_key("hash"):
                 attachment["size"] = binary["size"]
                 attachment["hash"] = binary["hash"]
 
-            out["resource"] = [attachment]
+            out["resource"]["content"] = [
+                {
+                    "attachment": attachment
+                }
+            ]
 
         return out

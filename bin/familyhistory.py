@@ -155,7 +155,7 @@ class FamilyHistory(object):
                 {
                     "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/family-history#height",
                     "valueQuantity": {
-                        "value" : self.heightcm,
+                        "value" : float(self.heightcm),
                         "unit"  : "centimeters",
                         "system": "http://unitsofmeasure.org",
                         "code"  : "cm"

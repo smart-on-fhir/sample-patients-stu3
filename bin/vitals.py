@@ -135,7 +135,6 @@ also maintains complete VitalSigns lists by patient id"""
     vitals = {} # Dictionary of VitalSign lists, by patient id
 
     def __init__(self, m):
-        self.pid = ""
         for f in m:
             setattr(self, f.lower(), m[f])
         self.sourcerow = m
