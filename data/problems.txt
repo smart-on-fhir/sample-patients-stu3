@@ -155,7 +155,7 @@ ID	PID	START_DATE	END_DATE	SNOMED	NAME
 154	1213208	2009-02-17		90392009	Spasm
 155	1213208	2009-05-11		108365000	Unspecified local infection of skin and subcutaneous tissue
 156	1213208	2009-05-13		1201005	Benign essential hypertension
-157	1213208	2009-05-13		267782008	Cellulitis and abscess of leg
+157	1213208	2009-05-13		200681001	Cellulitis and abscess of leg
 158	1213208	2009-05-13		57643001	Gastro-esophageal reflux disease with esophagitis
 159	1213208	2009-05-15		30473006	Abdominal pain
 160	1213208	2009-05-15		202381003	Joint effusion of the lower leg
@@ -559,4 +559,4 @@ ID	PID	START_DATE	END_DATE	SNOMED	NAME
 558	99912345	2008-10-06		425229001	foreign body in larynx
 559	1577780	2009-10-12		56727007	Vitiligo
 600	1577780	2013-01-25		68225006	Alopecia Areata
-601	1288992	2009-07-18		356744012	Thiopurine methyltransferase deficiency
+601	1288992	2009-07-18		238012003	Thiopurine methyltransferase deficiency

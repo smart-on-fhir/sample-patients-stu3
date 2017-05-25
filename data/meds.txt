@@ -260,15 +260,15 @@ ID	PID	START_DATE	END_DATE	RxNorm	Name	SIG	Q	DAYS	REFILLS	Q_TO_TAKE_VALUE	Q_TO_T
 259	8888801	2011-09-26		402097	Cialis 20mg	"1/2 or 1 tab po qd prn, max 3x/wk"							
 260	8888801	2011-05-10		801663	Vitamin D3 2000 iu	2 tabs po qd							
 261	8888801	2011-05-10	2011-09-20	597966	Atorvastatin 20mg	1 tab po qd							
-262	8888801	2011-09-20		597983	Atorvastatin 40mg	1 tab po qd 							
-263	8888801	2012-03-15	2012-03-24	213199	Omnicef 300mg	1 cap po bid 							
+262	8888801	2011-09-20		597983	Atorvastatin 40mg	1 tab po qd							
+263	8888801	2012-03-15	2012-03-24	213199	Omnicef 300mg	1 cap po bid							
 264	8888801	2011-05-10		572018	Metrocream 0.75%	apply thin layer to face bid							
 265	8888801	2009-06-02		309094	Ceftriaxone 500mg	IM injection in office x 1							
 266	8888801	2009-06-02	2009-06-08	197633	Doxycycline	100mg po bid x 7 days							
 267	8888802	2009-12-06		746735	Advair discus 250/50	1 puff every 12 hours (rinse mouth and throat after use)							
 268	8888802	2009-12-06		353534	Ventolin HFA	2 puffs every 4 hours prn asthma							
 269	8888802	2010-04-12		565420	Singulair 10mg	1 tab daily at bedtime							
-270	8888802	2007		997489	Allegra	1 tab daily  							
+270	8888802	2007		997489	Allegra	1 tab daily							
 271	8888802	2012-10-07	2012-11-06	795737	Chantix starter kit	as directed							
 272	8888802	2012-11-06	2013-02-04	637189	Chantix 1mg	1 tab twice daily							
 273	8888802	2011-04-17		352272	Lexapro 10mg	1 tab daily							
@@ -283,7 +283,7 @@ ID	PID	START_DATE	END_DATE	RxNorm	Name	SIG	Q	DAYS	REFILLS	Q_TO_TAKE_VALUE	Q_TO_T
 282	8888803	2012-09-06		966171	Synthroid 75mcg	1 tab po qd							
 283	8888803	2011-11-04		215098	Alesse	1 tab po qd							
 284	8888803	2012-05-07		801663	vitamin D3 2000 iu	1 tab po qd							
-285	8888803	2011-11-04		812178	multivitamin 	1 tab po qd							
+285	8888803	2011-11-04		812178	multivitamin	1 tab po qd							
 286	8888803	2010-12-14	2010-12-23	539712	Macrobid 100mg	1 cap po bid x 10 days							
 287	8888803	2009-12-30	2010-01-08	329066	Amoxicillin 875mg	1 tab po bid x 10 days							
 288	8888804	2011-02-03		1169778	Flomax 0.4 mg	"1 capsule po qd, 30 min. before a meal"							
@@ -337,10 +337,10 @@ ID	PID	START_DATE	END_DATE	RxNorm	Name	SIG	Q	DAYS	REFILLS	Q_TO_TAKE_VALUE	Q_TO_T
 336	5555003	2014-05-24		200096	Irbesartan Tablet 300mg	1 tab qd	30	30	0	1	{tablet}	1	/d
 337	5555003	2012-07-23	2014-05-24	979480	losartan Tablet 100mg	1 tab qd	30	30	0	1	{tablet}	1	/d
 338	5555003	2014-11-02		243670	Aspirin Tablet 81mg	1 tab qd	30	30	0	1	{tablet}	1	/d
-339	5555003	2014-11-01	2014-05-14	1116639	Brilinta Tablet 90mg	1 tab qd	30	30	0	1	{tablet}	1	/d
+339	5555003	2014-11-01	2014-12-14	1116639	Brilinta Tablet 90mg	1 tab qd	30	30	0	1	{tablet}	1	/d
 340	5555003	2012-05-02		402014	Omeprazole Delayed Release Tablet 20mg	1 tab qd	30	30	0	1	{tablet}	1	/d
 341	5555003	2014-08-11		966247	Synthroid Tablet 50mcg	1 tab qd	30	30	0	1	{tablet}	1	/d
-342	5555003	2014-08-11	2014-05-03	966158	Synthroid Tablet 25mcg	1 tab qd	30	30	0	1	{tablet}	1	/d
+342	5555003	2014-08-11	2014-09-03	966158	Synthroid Tablet 25mcg	1 tab qd	30	30	0	1	{tablet}	1	/d
 343	5555003	2012-10-17		707566	Systane ophthalmic solution	1 drop OU bid	1	30	0	1	[drp]	2	/d
 344	5555003	2013-08-12		745752	ProAir HFA	2 puffs every 4 hrs for asthma	1	30	0				
 345	5555003	2014-08-12		896031	Flovent 100mcg/inh	1 puff every 12 hrs	1	30	0				
