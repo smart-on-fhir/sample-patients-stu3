@@ -23,17 +23,9 @@ To generate the test data files in the 'generated-data' directory:
 
     python generate.py --write-fhir ../out
 
-And a `summary.txt` file can be added to `generated-data` by running:
-
-    python generate.py --summary > ../generated-data/summary.txt
-
-A good way to look at a single patient, with patient ID, PID, is:
-
-    python generate.py --summary PID
-
 The primary purpose of this tool is to generate FHIR STU3 transaction bundles as
 JSON files. Once generated these bundles can be inserted into any compatible 
-FHIR server using it's API. Since you might want to insert the same date into
+FHIR server using it's API. Since you might want to insert the same data into
 multiple servers or to add different tags to that data resources, we have 
 delegated these tasks to another tool called Tag Uploader available at
 https://github.com/smart-on-fhir/tag-uploader
