@@ -361,7 +361,7 @@ class FHIRSamplePatient(object):
                             al.loinc_code = '52473-6'
                             al.loinc_display = 'Allergy'
                             al.text = 'No known allergies'
-                            #bundle["entry"].append(al.toJSON(prefix))
+                            bundle["entry"].append(al.toJSON(prefix))
                         elif al.code == '409137002':
                             al.loinc_code = '11382-9'
                             al.loinc_display = 'Medication allergy'
