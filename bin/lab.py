@@ -66,7 +66,8 @@ class Lab(object):
             "date" : self.date,
             "name" : self.name,
             "value": self.value,
-            "units": self.units
+            "units": self.units,
+            "scale": self.scale
         }
 
         if hasattr(self, "high"):

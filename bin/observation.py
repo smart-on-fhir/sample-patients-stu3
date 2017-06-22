@@ -109,11 +109,16 @@ def Observation(data, prefix=""):
     # valueDateTime, or valuePeriod. (The name format is "'value' + the type
     # name" with a capital on the first letter of the type).
     if data.has_key("scale") and data["scale"] == 'Qn':
+        try:
+            value = float(data["value"] or "0")
+        except:
+            value = data["value"]
+
         out["valueQuantity"] = {
-            "value" : float(data["value"] or "0"),
+            "value" : value,
             "unit"  : data["units"],
             "system": "http://unitsofmeasure.org",
-            "code"  : data["unitsCode"]
+            "code"  : data["code"]
         }
 
     # Most observations only have one generic reference range. Systems MAY
