@@ -21,7 +21,7 @@ To get a general help message.
 
 To generate the test data files in the 'generated-data' directory:
 
-    python generate.py --write-fhir ../out
+    python generate.py --write-fhir ../out --id-prefix "smart"
 
 The primary purpose of this tool is to generate FHIR STU3 transaction bundles as
 JSON files. Once generated these bundles can be inserted into any compatible 

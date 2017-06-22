@@ -61,6 +61,11 @@ class Allergy(object):
 
     def toJSON(self, prefix=""):
         """Builds and returns the AllergyIntolerance JSON"""
+        allergyString = "Sensitivity to "
+        if self.allergen.startswith("No known"):
+            allergyString = self.allergen
+        else:
+            allergyString += self.allergen
 
         if prefix:
             prefix += "-"
@@ -75,8 +80,8 @@ class Allergy(object):
                 "resourceType": "AllergyIntolerance",
                 "text": {
                     "status": "generated",
-                    "div": '<div xmlns="http://www.w3.org/1999/xhtml">Sensitivity to %s</div>'
-                           % self.allergen
+                    "div": '<div xmlns="http://www.w3.org/1999/xhtml">%s</div>'
+                           % allergyString
                 },
                 "assertedDate": self.start,
                 "verificationStatus": "confirmed",
