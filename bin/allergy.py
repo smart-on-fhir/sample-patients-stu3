@@ -62,7 +62,7 @@ class Allergy(object):
     def toJSON(self, prefix=""):
         """Builds and returns the AllergyIntolerance JSON"""
         allergyString = "Sensitivity to "
-        if self.allergen == "No known allergies":
+        if self.allergen.startswith("No known"):
             allergyString = self.allergen
         else:
             allergyString += self.allergen
