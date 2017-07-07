@@ -411,6 +411,19 @@ class FHIRSamplePatient(object):
                     "entry": [ doc ]
                 })
 
+                binary_id = uid(None, "%s-document-ref" % d.id, prefix)
+                docRef = Document({
+                    'ID'       : binary_id,
+                    'PID'      : self.pid,
+                    'DATE'     : datetime.now().strftime("%Y-%m-%dT%H:%M:%S+" + "05:00"), #.isoformat(),
+                    'TITLE'    : d.file_name,
+                    'MIME_TYPE': d.mime_type,
+                    'FILE_NAME': d.file_name,
+                    'TYPE'     : "Document",
+                    'mime_type': d.mime_type
+                })
+                bundle["entry"].append(docRef.toJSON(data, binary_id, prefix))
+
                 # id = uid("DocumentReference", "%s-document" % d.id, prefix)
                 # d.system = 'http://smarthealthit.org/terms/codes/DocumentType#'
                 # d.code = d.type
