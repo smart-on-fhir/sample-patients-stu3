@@ -111,15 +111,14 @@ def Observation(data, prefix=""):
     if data.has_key("scale") and data["scale"] == 'Qn':
         try:
             value = float(data["value"] or "0")
+            out["valueQuantity"] = {
+                "value" : value,
+                "unit"  : data["units"],
+                "system": "http://unitsofmeasure.org",
+                "code"  : data["unitsCode"]
+            }
         except:
-            value = data["value"]
-
-        out["valueQuantity"] = {
-            "value" : value,
-            "unit"  : data["units"],
-            "system": "http://unitsofmeasure.org",
-            "code"  : data["code"]
-        }
+            out["valueString"] = data["value"]
 
     # Most observations only have one generic reference range. Systems MAY
     # choose to restrict to only supplying the relevant reference range
