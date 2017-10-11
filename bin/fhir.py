@@ -83,6 +83,7 @@ class FHIRSamplePatient(object):
     def __init__(self, pid, path, base_url=""):
         self.pid = pid
         self.path = path
+        self.bundleCounter = 1
 
         if len(base_url) > 0 and not base_url.endswith("/"):
             base_url += "/"
@@ -90,6 +91,20 @@ class FHIRSamplePatient(object):
         self.base_url = base_url
 
         return
+
+    def appendEntry(self, bundle, data):
+        """Appends an entry to the bundle"""
+        if len(bundle["entry"]) >= 200:
+            patientFile = open(os.path.join(
+                self.path,
+                "patient-%s.fhir-bundle.0%s.json" % (self.pid, self.bundleCounter)
+            ), "w")
+            print >> patientFile, pp_json(bundle)
+            bundle["entry"] = []
+            self.bundleCounter += 1
+
+        bundle["entry"].append(data)
+        return bundle
 
     def set_vitals(self, bundle, prefix=None):
         """Attaches the patient vitals to the given patient bundle"""
@@ -123,15 +138,13 @@ class FHIRSamplePatient(object):
 
                     # Add the encounter tot the transaction bundle
                     if GENERATION_MAP["Encounter"]:
-                        bundle["entry"].append(
-                            Entry(Encounter({
-                                'start_date'    : v.start_date,
-                                'end_date'      : v.end_date,
-                                'encounter_type': v.encounter_type,
-                                'pid'           : self.pid,
-                                'id'            : encounter_id
-                            }, prefix))
-                        )
+                        self.appendEntry(bundle, Entry(Encounter({
+                            'start_date'    : v.start_date,
+                            'end_date'      : v.end_date,
+                            'encounter_type': v.encounter_type,
+                            'pid'           : self.pid,
+                            'id'            : encounter_id
+                        }, prefix)))
 
                 for vt in VitalSigns.vitalTypes:
                     try:
@@ -178,7 +191,7 @@ class FHIRSamplePatient(object):
 
         if GENERATION_MAP["BloodPressure"]:
             for bp in bps:
-                bundle["entry"].append(Entry(BloodPressure(bp, prefix)))
+                self.appendEntry(bundle, Entry(BloodPressure(bp, prefix)))
 
         # Append other vitals as Observation entries to the transaction bundle
         if GENERATION_MAP["Vitals"]:
@@ -189,7 +202,7 @@ class FHIRSamplePatient(object):
                     o["categoryCode"] = "vital-signs"
                     o["categoryDisplay"] = "Vital Signs"
                     o["pid"] = self.pid
-                bundle["entry"].append(Entry(Observation(o, prefix)))
+                self.appendEntry(bundle, Entry(Observation(o, prefix)))
 
         return bundle
 
@@ -206,9 +219,7 @@ class FHIRSamplePatient(object):
                 _json["categoryCode"]    = "laboratory"
                 _json["categoryDisplay"] = "Laboratory"
                 # print _json
-                bundle["entry"].append(
-                    Entry(Observation(_json, prefix))
-                )
+                self.appendEntry(bundle, Entry(Observation(_json, prefix)))
         return bundle
 
     def set_patient(self, bundle, prefix=None):
@@ -224,7 +235,7 @@ class FHIRSamplePatient(object):
                 for d in [doc for doc in Document.documents[self.pid] if doc.type == 'photograph']:
                     data = fetch_document(self.pid, d.file_name)
                     binary_id = uid(None, "%s-photo" % d.id, prefix)
-                    bundle["entry"].append(Binary({
+                    self.appendEntry(bundle, Binary({
                         "mime_type": d.mime_type,
                         "content"  : data['base64_content'],
                         "id"       : binary_id
@@ -237,10 +248,10 @@ class FHIRSamplePatient(object):
 
             patientJSON = patient.toJSON(prefix)
             bundle = self.set_documents(bundle, prefix)
-            bundle["entry"].append(Entry(patientJSON))
+            self.appendEntry(bundle, Entry(patientJSON))
 
             if patient.gestage:
-                bundle["entry"].append(Entry(Observation({
+                self.appendEntry(bundle, Entry(Observation({
                     "id"             : uid(None, "%s-gestage" % self.pid, prefix),
                     "pid"            : self.pid,
                     "date"           : patient.dob,
@@ -261,9 +272,9 @@ class FHIRSamplePatient(object):
         if GENERATION_MAP["Meds"]:
             if self.pid in Med.meds:
                 for o in Med.meds[self.pid]:
-                    bundle["entry"].append(o.toJSON(prefix))
+                    self.appendEntry(bundle, o.toJSON(prefix))
                     for f in Refill.refill_list(o.pid, o.rxn):
-                        bundle["entry"].append(f.toJSON(o, prefix))
+                        self.appendEntry(bundle, f.toJSON(o, prefix))
         return bundle
 
     def set_conditions(self, bundle, prefix=None):
@@ -271,7 +282,7 @@ class FHIRSamplePatient(object):
         if GENERATION_MAP["Conditions"]:
             if self.pid in Condition.conditions:
                 for o in Condition.conditions[self.pid]:
-                    bundle["entry"].append(o.toJSON(prefix))
+                    self.appendEntry(bundle, o.toJSON(prefix))
         return bundle
 
     def set_procedures(self, bundle, prefix=None):
@@ -279,7 +290,7 @@ class FHIRSamplePatient(object):
         if GENERATION_MAP["Procedures"]:
             if self.pid in Procedure.procedures:
                 for o in Procedure.procedures[self.pid]:
-                    bundle["entry"].append(o.toJSON(prefix))
+                    self.appendEntry(bundle, o.toJSON(prefix))
         return bundle
 
     def set_immunizations(self, bundle, prefix=None):
@@ -287,7 +298,7 @@ class FHIRSamplePatient(object):
         if GENERATION_MAP["Immunizations"]:
             if self.pid in Immunization.immunizations:
                 for o in Immunization.immunizations[self.pid]:
-                    bundle["entry"].append(o.toJSON(prefix))
+                    self.appendEntry(bundle, o.toJSON(prefix))
         return bundle
 
     def set_family_history(self, bundle, prefix=None):
@@ -295,14 +306,14 @@ class FHIRSamplePatient(object):
         if GENERATION_MAP["FamilyHistory"]:
             if self.pid in FamilyHistory.familyHistories:
                 for fh in FamilyHistory.familyHistories[self.pid]:
-                    bundle["entry"].append(fh.toJSON(prefix))
+                    self.appendEntry(bundle, fh.toJSON(prefix))
         return bundle
 
     def set_smoking_status(self, bundle, prefix=None):
         """Generates and appends a SmokingStatus entry to the transaction"""
         if GENERATION_MAP["SmokingStatus"]:
             if self.pid in SocialHistory.socialHistories:
-                bundle["entry"].append(
+                self.appendEntry(bundle, 
                     SocialHistory.socialHistories[self.pid].toJSON(prefix)
                 )
         return bundle
@@ -355,20 +366,20 @@ class FHIRSamplePatient(object):
                                 al.criticality = 'low'
                             else:
                                 al.severity = None
-                        bundle["entry"].append(al.toJSON(prefix))
+                        self.appendEntry(bundle, al.toJSON(prefix))
                     elif al.statement == 'negative' and al.type == 'general':
                         if al.code == '716186003':
                             al.loinc_code = '52473-6'
                             al.loinc_display = 'Allergy'
                             al.text = 'No known allergies'
-                            bundle["entry"].append(al.toJSON(prefix))
+                            self.appendEntry(bundle, al.toJSON(prefix))
                         elif al.code == '409137002':
                             al.loinc_code = '11382-9'
                             al.loinc_display = 'Medication allergy'
                             al.text = 'No known history of drug allergy'
-                            bundle["entry"].append(al.toJSON(prefix))
+                            self.appendEntry(bundle, al.toJSON(prefix))
                         else:
-                            bundle["entry"].append(GeneralObservation({
+                            self.appendEntry(bundle, GeneralObservation({
                                 "id"    : al.id,
                                 "date"  : al.start,
                                 "system": SYSTEMS["SNOMED"], # "http://snomed.info/sct",
@@ -399,7 +410,7 @@ class FHIRSamplePatient(object):
                     "id"       : uid(None, "%s-document" % d.id, prefix)
                 })
 
-                # bundle["entry"].append(doc)
+                # self.appendEntry(bundle, doc)
 
                 patientFile = open(os.path.join(
                     self.path,
@@ -422,7 +433,7 @@ class FHIRSamplePatient(object):
                     'TYPE'     : "Document",
                     'mime_type': d.mime_type
                 })
-                bundle["entry"].append(docRef.toJSON(data, binary_id, prefix))
+                self.appendEntry(bundle, docRef.toJSON(data, binary_id, prefix))
 
                 # id = uid("DocumentReference", "%s-document" % d.id, prefix)
                 # d.system = 'http://smarthealthit.org/terms/codes/DocumentType#'
@@ -432,7 +443,7 @@ class FHIRSamplePatient(object):
                 # print >>pfile, template.render(dict(globals(), **locals()))
         # if GENERATION_MAP["Documents"]:
         #     if self.pid in SocialHistory.socialHistories:
-        #         bundle["entry"].append(
+        #         self.appendEntry(bundle, 
         #             SocialHistory.socialHistories[self.pid].toJSON(prefix)
         #         )
         return bundle
@@ -456,7 +467,7 @@ class FHIRSamplePatient(object):
                         "id"       : binary_id
                     })
 
-                    bundle["entry"].append(note)
+                    self.appendEntry(bundle, note)
 
                     # if GENERATION_MAP["Documents"]:
                     docRef = Document({
@@ -469,7 +480,7 @@ class FHIRSamplePatient(object):
                         'TYPE'     : "Note",
                         'mime_type': d.mime_type
                     })
-                    bundle["entry"].append(docRef.toJSON(data, binary_id, prefix))
+                    self.appendEntry(bundle, docRef.toJSON(data, binary_id, prefix))
             #         id = uid("DocumentReference", "%s-note" % d.id, prefix)
             #         d.system = "http://loinc.org"
             #         d.code = '34109-9'
