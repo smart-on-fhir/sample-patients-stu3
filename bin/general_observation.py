@@ -35,17 +35,21 @@ def GeneralObservation(data, prefix=""):
         "subject": {
             "reference": "Patient/" + prefix + data["pid"]
         },
-        "performer": {
-            "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
-        },
+        "performer": [
+            {
+                "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
+            }
+        ],
         "effectiveDateTime": data["date"],
         "category": [
             {
-                "coding": {
-                    "system" : "http://hl7.org/fhir/observation-category",
-                    "code"   : data["categoryCode"],
-                    "display": data["categoryDisplay"]
-                },
+                "coding": [
+                    {
+                        "system" : "http://hl7.org/fhir/observation-category",
+                        "code"   : data["categoryCode"],
+                        "display": data["categoryDisplay"]
+                    }
+                ],
                 "text": data["categoryDisplay"]
             }
         ]

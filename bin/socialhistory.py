@@ -66,9 +66,11 @@ class SocialHistory(object):
                     "div": '<div xmlns="http://www.w3.org/1999/xhtml">' +
                            'Tobacco smoking status: %s</div>'%self.smokingStatusText
                 },
-                "performer": {
-                    "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
-                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
+                    }
+                ],
                 "effectiveDateTime": rndDate(2016).isoformat(),
                 "code": {
                     "coding": [
@@ -85,11 +87,13 @@ class SocialHistory(object):
                 },
                 "category": [
                     {
-                        "coding": {
-                            "system" : "http://hl7.org/fhir/observation-category",
-                            "code"   : "social-history",
-                            "display": "Social History"
-                        },
+                        "coding": [
+                            {
+                                "system" : "http://hl7.org/fhir/observation-category",
+                                "code"   : "social-history",
+                                "display": "Social History"
+                            }
+                        ],
                         "text": "Social History"
                     }
                 ],

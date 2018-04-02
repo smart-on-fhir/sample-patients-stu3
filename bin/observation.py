@@ -45,9 +45,11 @@ def Observation(data, prefix=""):
                 escape(data.get("units", ''))
             )
         },
-        "performer": {
-            "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
-        },
+        "performer": [
+            {
+                "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
+            }
+        ],
         "code": {
             "coding": [
                 {
@@ -64,17 +66,19 @@ def Observation(data, prefix=""):
         "effectiveDateTime": data["date"],
         "category": [
             {
-                "coding": {
-                    "system" : "http://hl7.org/fhir/observation-category",
-                    "code"   : data["categoryCode"],
-                    "display": data["categoryDisplay"]
-                },
+                "coding": [
+                    {
+                        "system" : "http://hl7.org/fhir/observation-category",
+                        "code"   : data["categoryCode"],
+                        "display": data["categoryDisplay"]
+                    }
+                ],
                 "text": data["categoryDisplay"]
             }
         ]
     }
 
-    if data.has_key("low") and data.get("scale", None) == "Ord":
+    if data.has_key("low") and data.get("scale", None) == "Ord" and data["low"][0]:
         out["extension"] = [
             {
                 "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/labs#value-range",
@@ -111,12 +115,21 @@ def Observation(data, prefix=""):
     if data.has_key("scale") and data["scale"] == 'Qn':
         try:
             value = float(data["value"] or "0")
+            code  = data["units"]
+            if data.has_key("unitsCode"):
+                code  = data["unitsCode"]
+
             out["valueQuantity"] = {
                 "value" : value,
-                "unit"  : data["units"],
-                "system": "http://unitsofmeasure.org",
-                "code"  : data["unitsCode"]
+                "system": "http://unitsofmeasure.org"
             }
+
+            if code:
+                out["valueQuantity"]["code"] = code
+
+            if data["units"]:
+                out["valueQuantity"]["unit"] = data["units"]
+
         except:
             out["valueString"] = data["value"]
 
@@ -144,17 +157,21 @@ def Observation(data, prefix=""):
             high["unit"] = data["units"]
             high["code"] = data["units"]
 
-        out["referenceRange"] = {
-            "type": {
-                "coding": {
-                    "system" : "http://hl7.org/fhir/referencerange-meaning",
-                    "code"   : "normal",
-                    "display": "Normal Range"
+        out["referenceRange"] = [
+            {
+                "type": {
+                    "coding": [
+                        {
+                            "system" : "http://hl7.org/fhir/referencerange-meaning",
+                            "code"   : "normal",
+                            "display": "Normal Range"
+                        }
+                    ],
+                    "text": "Normal Range"
                 },
-                "text": "Normal Range"
-            },
-            "low": low,
-            "high": high
-        }
+                "low": low,
+                "high": high
+            }
+        ]
 
     return out

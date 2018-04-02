@@ -73,8 +73,7 @@ class FamilyHistory(object):
                     "div": '<div xmlns="http://www.w3.org/1999/xhtml">' +
                            "Data on patient's %s</div>" % self.relativetitle
                 }
-            },
-            "relationship": {}
+            }
         }
 
 
@@ -173,11 +172,13 @@ class FamilyHistory(object):
             out["resource"]["condition"] = [
                 {
                     "code": {
-                        "coding": {
-                            "system": "http://snomed.info/sct",
-                            "code": self.problemcode,
-                            "display": self.problemtitle
-                        },
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": self.problemcode,
+                                "display": self.problemtitle
+                            }
+                        ],
                         "text": self.problemtitle
                     }
                 }

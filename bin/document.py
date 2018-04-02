@@ -71,9 +71,11 @@ class Document(object):
                     ],
                     "text": "Note"
                 },
-                "author": {
-                    "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
-                },
+                "author": [
+                    {
+                        "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
+                    }
+                ],
                 "description": self.title
             }
         }

@@ -109,20 +109,24 @@ class Allergy(object):
             out["resource"]["criticality"] = self.criticality
 
         if self.reaction:
-            out["resource"]["reaction"] = {
-                "manifestation": {
-                    "coding": [
+            out["resource"]["reaction"] = [
+                {
+                    "manifestation": [
                         {
-                            "system" : "http://snomed.info/sct",
-                            "code"   : self.snomed,
-                            "display": self.reaction
+                            "coding": [
+                                {
+                                    "system" : "http://snomed.info/sct",
+                                    "code"   : self.snomed,
+                                    "display": self.reaction
+                                }
+                            ],
+                            "text": self.reaction
                         }
-                    ],
-                    "text": self.reaction
+                    ]
                 }
-            }
+            ]
 
             if self.severity:
-                out["resource"]["reaction"]["severity"] = self.severity
+                out["resource"]["reaction"][0]["severity"] = self.severity
 
         return out

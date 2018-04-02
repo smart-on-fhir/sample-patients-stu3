@@ -207,18 +207,22 @@ class Patient(object):
             ]
 
         if self.photo_title:
-            out["photo"] = {
-                "contentType": self.photo_code,
-                "url"        : "/Binary/" + self.photo_binary_id,
-                "hash"       : self.photo_hash,
-                "title"      : self.photo_title,
-                "size"       : self.photo_size
-            }
+            out["photo"] = [
+                {
+                    "contentType": self.photo_code,
+                    "url"        : "/Binary/" + self.photo_binary_id,
+                    "hash"       : self.photo_hash,
+                    "title"      : self.photo_title,
+                    "size"       : self.photo_size
+                }
+            ]
 
         # Patient's nominated care provider.
         if self.gp:
-            out["generalPractitioner"] = {
-                "reference": "Practitioner/%sPractitioner-%s" % (prefix, self.gp)
-            }
+            out["generalPractitioner"] = [
+                {
+                    "reference": "Practitioner/%sPractitioner-%s" % (prefix, self.gp)
+                }
+            ]
 
         return out

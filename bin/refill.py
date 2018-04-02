@@ -84,9 +84,11 @@ class Refill(object):
                     "text": med.name
                 },
 
-                "authorizingPrescription": {
-                    "reference": "MedicationRequest/" + prefix + "MedicationRequest-" + med.id
-                },
+                "authorizingPrescription": [
+                    {
+                        "reference": "MedicationRequest/" + prefix + "MedicationRequest-" + med.id
+                    }
+                ],
 
                 "quantity": {
                     "value" : float(self.q),

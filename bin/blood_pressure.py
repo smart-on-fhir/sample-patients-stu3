@@ -30,33 +30,41 @@ def BloodPressure(bp, prefix=""):
         },
         "category": [
             {
-                "coding": {
-                    "system" : "http://hl7.org/fhir/observation-category",
-                    "code"   : "vital-signs",
-                    "display": "Vital Signs"
-                },
+                "coding": [
+                    {
+                        "system" : "http://hl7.org/fhir/observation-category",
+                        "code"   : "vital-signs",
+                        "display": "Vital Signs"
+                    }
+                ],
                 "text": "Vital Signs"
             }
         ],
         "code": {
-            "coding": {
-                "system" : "http://loinc.org",
-                "code"   : "55284-4",
-                "display": "Blood pressure"
-            },
+            "coding": [
+                {
+                    "system" : "http://loinc.org",
+                    "code"   : "55284-4",
+                    "display": "Blood pressure"
+                }
+            ],
             "text": "Blood pressure"
         },
-        "performer": {
-            "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
-        },
+        "performer": [
+            {
+                "reference": "Practitioner/" + prefix + "Practitioner-" + patient.gp
+            }
+        ],
         "component": [
             {
                 "code": {
-                    "coding": {
-                        "system" : "http://loinc.org",
-                        "code"   : "8480-6",
-                        "display": "Systolic blood pressure"
-                    },
+                    "coding": [
+                        {
+                            "system" : "http://loinc.org",
+                            "code"   : "8480-6",
+                            "display": "Systolic blood pressure"
+                        }
+                    ],
                     "text": "Systolic blood pressure"
                 },
                 "valueQuantity": {
@@ -68,11 +76,13 @@ def BloodPressure(bp, prefix=""):
             },
             {
                 "code": {
-                    "coding": {
-                        "system" : "http://loinc.org",
-                        "code"   : "8462-4",
-                        "display": "Diastolic blood pressure"
-                    },
+                    "coding": [
+                        {
+                            "system" : "http://loinc.org",
+                            "code"   : "8462-4",
+                            "display": "Diastolic blood pressure"
+                        }
+                    ],
                     "text": "Diastolic blood pressure"
                 },
                 "valueQuantity": {
@@ -94,22 +104,26 @@ def BloodPressure(bp, prefix=""):
     # bodySite
     if bp.has_key("site_system") and bp.has_key("site_code") and bp.has_key("site"):
         out["bodySite"] = {
-            "coding": {
-                "system" : bp["site_system"],
-                "code"   : bp["site_code"],
-                "display": bp["site"]
-            },
+            "coding": [
+                {
+                    "system" : bp["site_system"],
+                    "code"   : bp["site_code"],
+                    "display": bp["site"]
+                }
+            ],
             "text": bp["site"]
         }
 
     # bodySite
     if bp.has_key("method_system") and bp.has_key("method_code") and bp.has_key("method"):
         out["method"] = {
-            "coding": {
-                "system" : bp["method_system"],
-                "code"   : bp["method_code"],
-                "display": bp["method"]
-            },
+            "coding": [
+                {
+                    "system" : bp["method_system"],
+                    "code"   : bp["method_code"],
+                    "display": bp["method"]
+                }
+            ],
             "text": bp["method"]
         }
 
@@ -119,11 +133,13 @@ def BloodPressure(bp, prefix=""):
             {
                 "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/vital-signs#position",
                 "valueCodeableConcept" : {
-                    "coding": {
-                        "system": bp["position_system"],
-                        "code"  : bp["position_code"],
-                        "display": bp["position"]
-                    },
+                    "coding": [
+                        {
+                            "system": bp["position_system"],
+                            "code"  : bp["position_code"],
+                            "display": bp["position"]
+                        }
+                    ],
                     "text": bp["position"]
                 }
             }
